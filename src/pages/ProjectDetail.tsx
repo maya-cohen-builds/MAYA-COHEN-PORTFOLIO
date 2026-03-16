@@ -116,7 +116,8 @@ const ProjectDetail = () => {
             >
               <h2 className="label-text mb-6">{section.label}</h2>
               <p className="text-lg text-foreground/80 leading-relaxed max-w-3xl">
-                {section.content}
+                {renderTextWithLinks(section.content, project.links)}
+              </p>
               </p>
             </motion.div>
           ))}
