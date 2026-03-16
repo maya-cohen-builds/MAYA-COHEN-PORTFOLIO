@@ -161,6 +161,11 @@ export const projects: Project[] = [
     impact: "Successfully launched an inaugural co-branded conference from zero, creating a unified brand identity across two distinct student organizations. Brand partnerships with Lo and Sons and Coca-Cola. Two original logos became official conference merch. Live brand activation via networking bingo and a product giveaway drove audience engagement throughout the event. Community session amplified a student-founded nonprofit to a professional audience.",
     press: "USC Elevate Summit, inaugural edition. Brand partners: Lo and Sons, Coca-Cola. Keynote: Andy Muir, CFO of SKIMS. Fireside chat: Karina Martinez, Co-Founder and CEO of DRAFTED.",
     gallery: [elevateCover, elevateGallery1, elevateGallery2, elevateGallery3, elevateGallery4, elevateGallery5],
+    links: [
+      { text: "SKIMS", url: "https://skims.com" },
+      { text: "DRAFTED", url: "https://www.wearedrafted.co/about-us" },
+      { text: "Drafted", url: "https://www.wearedrafted.co/about-us" },
+    ],
   },
   {
     id: "hbo-barry-emmys",

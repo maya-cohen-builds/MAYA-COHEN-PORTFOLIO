@@ -1,7 +1,54 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { projects } from "@/data/projects";
+import { projects, type ProjectLink } from "@/data/projects";
 import { ArrowLeft } from "lucide-react";
+import React from "react";
+
+const renderTextWithLinks = (text: string, links?: ProjectLink[]): React.ReactNode => {
+  if (!links || links.length === 0) return text;
+
+  const parts: React.ReactNode[] = [];
+  let remaining = text;
+  let key = 0;
+
+  while (remaining.length > 0) {
+    let earliest = -1;
+    let matchedLink: ProjectLink | null = null;
+
+    for (const link of links) {
+      const idx = remaining.indexOf(link.text);
+      if (idx !== -1 && (earliest === -1 || idx < earliest)) {
+        earliest = idx;
+        matchedLink = link;
+      }
+    }
+
+    if (earliest === -1 || !matchedLink) {
+      parts.push(remaining);
+      break;
+    }
+
+    if (earliest > 0) {
+      parts.push(remaining.slice(0, earliest));
+    }
+
+    parts.push(
+      <a
+        key={key++}
+        href={matchedLink.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-primary hover:underline"
+      >
+        {matchedLink.text}
+      </a>
+    );
+
+    remaining = remaining.slice(earliest + matchedLink.text.length);
+  }
+
+  return <>{parts}</>;
+};
 
 const ProjectDetail = () => {
   const { id } = useParams();
