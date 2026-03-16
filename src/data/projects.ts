@@ -24,6 +24,11 @@ import elevateGallery3 from "@/assets/elevate-gallery-3.jpg";
 import elevateGallery4 from "@/assets/elevate-gallery-4.jpg";
 import elevateGallery5 from "@/assets/elevate-gallery-5.jpg";
 
+export type ProjectLink = {
+  text: string;
+  url: string;
+};
+
 export type Project = {
   id: string;
   brand: string;
@@ -36,6 +41,7 @@ export type Project = {
   impact: string;
   press?: string;
   gallery: string[];
+  links?: ProjectLink[];
 };
 
 export const projects: Project[] = [
