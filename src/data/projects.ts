@@ -5,8 +5,11 @@ import card4 from "@/assets/card-4.jpg";
 import card5 from "@/assets/card-5.jpg";
 import card6 from "@/assets/card-6.jpg";
 import infosysCover from "@/assets/infosys-cover.jpeg";
-import infosysMurthy from "@/assets/infosys-murthy.jpeg";
-import infosysInterns from "@/assets/infosys-interns.jpeg";
+import infosysGallery1 from "@/assets/infosys-gallery-1.jpeg";
+import infosysGallery3 from "@/assets/infosys-gallery-3.jpeg";
+import infosysGallery4 from "@/assets/infosys-gallery-4.jpeg";
+import infosysGallery5 from "@/assets/infosys-gallery-5.jpeg";
+import infosysGallery6 from "@/assets/infosys-gallery-6.jpeg";
 
 export type Project = {
   id: string;
@@ -68,12 +71,12 @@ export const projects: Project[] = [
     title: "Infosys InStep 25th Anniversary Activation",
     description: "Created live AI product demos and wrote main stage keynote content for a Fortune 500 milestone celebration.",
     tag: "Enterprise",
-     image: infosysCover,
-     context: "In 2025, Infosys celebrated the 25th anniversary of its InStep global internship program, one of the largest and most recognized internship programs in enterprise technology. The milestone required internal activations that could communicate the program's legacy and future direction across a diverse employee audience ranging from associates to C-suite executives.",
-     role: "As MBA Intern directly supporting the Global Head of Brand at Infosys, I contributed to the anniversary activation across multiple workstreams. I created live product demos showcasing Azure-native AI agent capabilities, developed sales enablement decks used across the event, presented to internal audiences spanning associates through C-suite, and wrote live keynote content for the main stage presentation at the celebration.",
-     impact: "Contributed to a flagship internal brand activation marking a 25-year program milestone at a Fortune 500 enterprise technology company. Keynote content and demo materials reached the full internal InStep audience across seniority levels.",
-     press: "Infosys InStep 25th Anniversary, 2025. Infosys is a global enterprise technology leader with 300,000+ employees.",
-     gallery: [infosysCover, infosysInterns, infosysMurthy],
+    image: infosysCover,
+    context: "In 2025, Infosys celebrated the 25th anniversary of its InStep global internship program, one of the largest and most recognized internship programs in enterprise technology. The milestone required internal activations that could communicate the program's legacy and future direction across a diverse employee audience ranging from associates to C-suite executives.",
+    role: "As MBA Intern directly supporting the Global Head of Brand at Infosys, I contributed to the anniversary activation across multiple workstreams. I created live product demos showcasing Azure-native AI agent capabilities, developed sales enablement decks used across the event, presented to internal audiences spanning associates through C-suite, and wrote live keynote content for the main stage presentation at the celebration.",
+    impact: "Contributed to a flagship internal brand activation marking a 25-year program milestone at a Fortune 500 enterprise technology company. Keynote content and demo materials reached the full internal InStep audience across seniority levels.",
+    press: "Infosys InStep 25th Anniversary, 2025. Infosys is a global enterprise technology leader with 300,000+ employees.",
+    gallery: [infosysGallery1, infosysCover, infosysGallery3, infosysGallery4, infosysGallery5, infosysGallery6],
   },
   {
     id: "bizhacks-2025",
