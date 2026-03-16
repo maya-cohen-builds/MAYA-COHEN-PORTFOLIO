@@ -118,7 +118,6 @@ const ProjectDetail = () => {
               <p className="text-lg text-foreground/80 leading-relaxed max-w-3xl">
                 {renderTextWithLinks(section.content, project.links)}
               </p>
-              </p>
             </motion.div>
           ))}
         </div>
