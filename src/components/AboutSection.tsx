@@ -10,12 +10,30 @@ const AboutSection = () => (
       transition={{ duration: 0.8 }}
       className="flex items-center justify-center"
     >
-      {/* TODO: Replace headshot.png with your real professional headshot */}
-      <img
-        src={headshot}
-        alt="Maya Cohen professional headshot"
-        className="rounded-full object-cover w-64 h-64 md:w-80 md:h-80 grayscale contrast-125"
-      />
+      <div className="relative w-64 h-64 md:w-80 md:h-80">
+        {/* Subtle radial gradient backdrop for studio depth */}
+        <div
+          className="absolute inset-[-16px] rounded-full"
+          style={{
+            background: 'radial-gradient(circle, hsl(0 0% 18%) 0%, hsl(0 0% 8%) 70%, transparent 100%)',
+          }}
+        />
+        {/* Headshot with lighting overlay */}
+        <div className="relative w-full h-full rounded-full overflow-hidden">
+          <img
+            src={headshot}
+            alt="Maya Cohen professional headshot"
+            className="w-full h-full object-cover grayscale contrast-125"
+          />
+          {/* Key light from upper left */}
+          <div
+            className="absolute inset-0 rounded-full pointer-events-none"
+            style={{
+              background: 'linear-gradient(135deg, rgba(255,255,255,0.08) 0%, transparent 50%, rgba(0,0,0,0.15) 100%)',
+            }}
+          />
+        </div>
+      </div>
     </motion.div>
     <motion.div
       initial={{ opacity: 0, y: 20 }}
