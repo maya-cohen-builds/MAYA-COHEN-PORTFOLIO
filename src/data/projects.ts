@@ -111,6 +111,19 @@ export const projects: Project[] = [
     press: "42nd Annual Humanitas Prize. Industry attendees spanning film and television writers, producers, and network executives.",
     gallery: [card1, card4, card6],
   },
+  {
+    id: "usc-marshall-gwib",
+    brand: "USC Marshall GWIB",
+    title: "USC Marshall Graduate Women in Business",
+    description: "VP of Marketing who led a full brand overhaul, social strategy, and 20% engagement growth for a USC Marshall student organization.",
+    tag: "Campus",
+    image: card2,
+    context: "Graduate Women in Business at USC Marshall is a student-led organization serving the Marshall MBA community with a focus on professional development, community building, and gender equity in business. As the organization grew its presence and partnerships, it needed a complete brand overhaul and a modern social media strategy to match its ambitions.",
+    role: "As VP of Marketing I led a full brand refresh from the ground up, redesigning the brand guidelines and logo from scratch. I owned social media strategy, content creation, posting, and reels production end to end. I created a spotlight campaign with original messaging and positioning collateral to showcase board members, developed decks for internal and external use, and mentored two members including an Associate VP and an undergraduate GWIB member. I also drove partnership growth and expanded the organization's social reach.",
+    impact: "Grew social engagement and partnerships by 20%. Delivered a complete brand identity overhaul including a new logo that became official organization collateral. Mentored two emerging marketing professionals simultaneously while managing the full marketing function independently.",
+    press: "USC Marshall Graduate Women in Business. USC Marshall School of Business, class of 2026.",
+    gallery: [card2, card3, card5],
+  },
 ];
 
 export const filterTags = ["All", "Gaming", "Enterprise", "Live Events", "Campus", "Content"] as const;
