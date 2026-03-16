@@ -17,6 +17,12 @@ import infosysGallery3 from "@/assets/infosys-gallery-3.jpeg";
 import infosysGallery4 from "@/assets/infosys-gallery-4.jpeg";
 import infosysGallery5 from "@/assets/infosys-gallery-5.jpeg";
 import infosysGallery6 from "@/assets/infosys-gallery-6.jpeg";
+import elevateCover from "@/assets/elevate-cover.jpeg";
+import elevateGallery1 from "@/assets/elevate-gallery-1.jpg";
+import elevateGallery2 from "@/assets/elevate-gallery-2.jpg";
+import elevateGallery3 from "@/assets/elevate-gallery-3.jpg";
+import elevateGallery4 from "@/assets/elevate-gallery-4.jpg";
+import elevateGallery5 from "@/assets/elevate-gallery-5.jpg";
 
 export type Project = {
   id: string;
