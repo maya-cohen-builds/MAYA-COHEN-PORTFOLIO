@@ -1,20 +1,20 @@
 import { motion } from "framer-motion";
-import portrait from "@/assets/portrait.jpg";
+import headshot from "@/assets/headshot.png";
 
 const AboutSection = () => (
-  <section id="about" className="py-32 px-8 md:px-16 grid grid-cols-1 md:grid-cols-2 gap-24 items-center border-t border-border">
+  <section id="about" className="py-32 px-8 md:px-16 grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-20 items-center border-t border-border">
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
-      className="aspect-[4/5] bg-muted overflow-hidden relative flex items-center justify-center"
+      className="flex items-center justify-center"
     >
-      {/* TODO: Replace portrait.jpg with professional headshot — INSERT HEADSHOT HERE */}
+      {/* TODO: Replace headshot.png with your real professional headshot */}
       <img
-        src={portrait}
-        alt="Professional headshot"
-        className="grayscale contrast-125 object-cover w-full h-full"
+        src={headshot}
+        alt="Maya Cohen professional headshot"
+        className="rounded-full object-cover w-64 h-64 md:w-80 md:h-80 grayscale contrast-125"
       />
     </motion.div>
     <motion.div
@@ -24,7 +24,7 @@ const AboutSection = () => (
       transition={{ duration: 0.8, delay: 0.1 }}
     >
       <h2 className="label-text mb-8">About</h2>
-      <p className="text-3xl text-foreground leading-tight mb-8">
+      <p className="text-lg text-foreground leading-relaxed mb-8">
         I build the brand moments that make technical products feel human and cultural moments feel strategic. From launching a cloud-native pipeline at DreamWorks to managing Emmy campaign press for HBO Barry to architecting the GTM motion behind a NYT bestselling memoir, my work lives at the intersection of enterprise technology and the kind of storytelling that actually moves people. USC Marshall MBA. Based in Los Angeles. Always in the room where it happens.
       </p>
       <div className="divider mb-8" />
