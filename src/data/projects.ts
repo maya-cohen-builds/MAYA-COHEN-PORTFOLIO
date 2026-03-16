@@ -15,6 +15,7 @@ export type Project = {
   context: string;
   role: string;
   impact: string;
+  press?: string;
   gallery: string[];
 };
 
