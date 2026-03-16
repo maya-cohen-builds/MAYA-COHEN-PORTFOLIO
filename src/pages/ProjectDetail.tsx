@@ -57,7 +57,7 @@ const ProjectDetail = () => {
             { label: "Context", content: project.context },
             { label: "My Role", content: project.role },
             { label: "Impact", content: project.impact },
-            { label: "Press & Recognition", content: '"This activation redefined what a product launch could feel like." — Placeholder Publication. Additional press links and quotes to be added.' },
+            { label: "Press & Recognition", content: project.press || '"This activation redefined what a product launch could feel like." — Placeholder Publication. Additional press links and quotes to be added.' },
           ].map((section) => (
             <motion.div
               key={section.label}
