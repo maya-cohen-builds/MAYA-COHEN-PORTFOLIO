@@ -137,6 +137,19 @@ export const projects: Project[] = [
     press: "USC Elevate Summit, inaugural edition. Brand partners: Lo and Sons, Coca-Cola. Keynote: Andy Muir, CFO of SKIMS. Fireside chat: Karina Martinez, Co-Founder and CEO of Drafted.",
     gallery: [card3, card1, card5],
   },
+  {
+    id: "hbo-barry-emmys",
+    brand: "Henry Winkler x HBO",
+    title: "HBO Barry Season 4 Emmy Awards Campaign",
+    description: "Managed Henry Winkler's full press and Emmy Awards campaign for Barry's final season across primetime, syndicated, podcast, and speaker series.",
+    tag: "Content",
+    image: card4,
+    context: "HBO's Barry, the critically acclaimed dark comedy starring Bill Hader and Henry Winkler, entered its fourth and final season in 2023 as one of television's most decorated comedies. The season finale press and awards campaign ran parallel to the 75th Annual Emmy Awards cycle, requiring a coordinated multi-platform promotional push across primetime, syndicated, podcast, and speaker series touchpoints to close out the show's legacy run.",
+    role: "As Chief of Staff to Henry Winkler, I supported his full Barry Season 4 press and Emmy Awards campaign across all four tour formats. I managed scheduling and logistics across primetime, syndicated, podcast, and speaker series appearances, coordinated press and PR outreach, developed media training materials and talking points for Winkler's on-camera and on-stage appearances, and created social content supporting the campaign across platforms.",
+    impact: "Barry Season 4 received 11 Emmy nominations at the 75th Annual Emmy Awards including Outstanding Comedy Series and an individual nomination for Henry Winkler for Outstanding Supporting Actor in a Comedy Series. The season successfully closed out one of HBO's most critically acclaimed series with a press campaign that spanned every major media format simultaneously.",
+    press: "HBO Barry Season 4. 75th Annual Emmy Awards, 11 nominations including Outstanding Comedy Series. Henry Winkler, nominated Outstanding Supporting Actor in a Comedy Series.",
+    gallery: [card4, card2, card6],
+  },
 ];
 
 export const filterTags = ["All", "Gaming", "Enterprise", "Live Events", "Campus", "Content"] as const;
