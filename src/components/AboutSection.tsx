@@ -23,7 +23,7 @@ const AboutSection = () => (
           <img
             src={headshot}
             alt="Maya Cohen professional headshot"
-            className="w-full h-full object-cover grayscale contrast-125"
+            className="w-full h-full object-cover grayscale contrast-125 scale-150"
           />
           {/* Key light from upper left */}
           <div
