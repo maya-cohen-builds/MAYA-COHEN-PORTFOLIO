@@ -4,6 +4,9 @@ import card3 from "@/assets/card-3.jpg";
 import card4 from "@/assets/card-4.jpg";
 import card5 from "@/assets/card-5.jpg";
 import card6 from "@/assets/card-6.jpg";
+import infosysCover from "@/assets/infosys-cover.jpeg";
+import infosysMurthy from "@/assets/infosys-murthy.jpeg";
+import infosysInterns from "@/assets/infosys-interns.jpeg";
 
 export type Project = {
   id: string;
