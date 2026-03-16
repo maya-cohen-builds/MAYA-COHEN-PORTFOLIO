@@ -5,8 +5,11 @@ import card4 from "@/assets/card-4.jpg";
 import card5 from "@/assets/card-5.jpg";
 import card6 from "@/assets/card-6.jpg";
 import infosysCover from "@/assets/infosys-cover.jpeg";
-import infosysMurthy from "@/assets/infosys-murthy.jpeg";
-import infosysInterns from "@/assets/infosys-interns.jpeg";
+import infosysGallery1 from "@/assets/infosys-gallery-1.jpeg";
+import infosysGallery3 from "@/assets/infosys-gallery-3.jpeg";
+import infosysGallery4 from "@/assets/infosys-gallery-4.jpeg";
+import infosysGallery5 from "@/assets/infosys-gallery-5.jpeg";
+import infosysGallery6 from "@/assets/infosys-gallery-6.jpeg";
 
 export type Project = {
   id: string;
