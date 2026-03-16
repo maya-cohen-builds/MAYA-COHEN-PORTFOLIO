@@ -27,7 +27,7 @@ const ActivationCard = ({ project }: { project: Project }) => {
       <div>
         <span className="label-text mb-2 block">{project.brand}</span>
         <h3 className="text-2xl text-foreground">{project.title}</h3>
-        <p className="text-muted-foreground mt-2">{project.description}</p>
+        <p className="text-muted-foreground mt-2 text-lg">{project.description}</p>
       </div>
     </motion.div>
   );
