@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import portrait from "@/assets/portrait.jpg";
 
 const AboutSection = () => (
-  <section className="py-32 px-8 md:px-16 grid grid-cols-1 md:grid-cols-2 gap-24 items-center border-t border-border">
+  <section id="about" className="py-32 px-8 md:px-16 grid grid-cols-1 md:grid-cols-2 gap-24 items-center border-t border-border">
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
