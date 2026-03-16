@@ -13,9 +13,9 @@ const AboutSection = () => (
       <div className="relative w-64 h-64 md:w-80 md:h-80">
         {/* Subtle radial gradient backdrop for studio depth */}
         <div
-          className="absolute inset-[-16px] rounded-full"
+          className="absolute inset-0 rounded-full"
           style={{
-            background: 'radial-gradient(circle, hsl(0 0% 18%) 0%, hsl(0 0% 8%) 70%, transparent 100%)',
+            background: 'radial-gradient(circle, hsl(0 0% 16%) 0%, transparent 70%)',
           }}
         />
         {/* Headshot with lighting overlay */}
