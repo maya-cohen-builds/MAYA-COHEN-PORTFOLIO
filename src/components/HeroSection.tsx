@@ -18,9 +18,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.2, 0, 0, 1] }}
-          className="text-[clamp(3rem,10vw,8rem)] leading-[0.9] font-semibold tracking-tighter text-foreground mb-8"
+          className="text-[clamp(2.5rem,6vw,5.5rem)] leading-[0.9] font-semibold tracking-tighter text-foreground mb-8 whitespace-nowrap"
         >
-          FIRST NAME <br /> LAST NAME
+          Maya Cohen
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 16 }}
@@ -28,8 +28,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.15, ease: [0.2, 0, 0, 1] }}
           className="text-xl md:text-2xl text-muted-foreground max-w-2xl mb-12"
         >
-          Specializing in high-stakes brand activations and experiential
-          marketing for global leaders in tech and lifestyle.
+          Product Marketer. Brand Architect. I build the moments people remember.
         </motion.p>
         <motion.button
           initial={{ opacity: 0 }}
