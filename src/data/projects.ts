@@ -10,6 +10,7 @@ import bizhacksGallery2 from "@/assets/bizhacks-gallery-2.jpg";
 import bizhacksGallery3 from "@/assets/bizhacks-gallery-3.jpg";
 import bizhacksGallery4 from "@/assets/bizhacks-gallery-4.jpg";
 import bizhacksGallery5 from "@/assets/bizhacks-gallery-5.jpg";
+import bizhacksGallery6 from "@/assets/bizhacks-gallery-6.jpg";
 import infosysCover from "@/assets/infosys-cover.jpeg";
 import infosysGallery1 from "@/assets/infosys-gallery-1.jpeg";
 import infosysGallery3 from "@/assets/infosys-gallery-3.jpeg";
