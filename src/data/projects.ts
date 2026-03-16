@@ -154,7 +154,7 @@ export const projects: Project[] = [
     role: "As an elected member of the organizing committee I operated as the de facto creative and brand director for the conference. I created the blended logo for the inaugural partnership which became official merch and high-quality sticker giveaways. I developed all marketing materials, live deck templates for mainstage and breakout sessions, and messaging and positioning frameworks for the community session spotlighting SELA nonprofit. I selected and coordinated workshop panelists, advised speakers on their session framing, and led the brand activation of networking bingo and the Lo and Sons bag raffle giveaway. I coordinated the closing group photo and ushered attendees to the post-conference mixer in DTLA. I also emceed the entire conference including introducing the keynote address from Andy Muir, CFO of SKIMS, and the fireside chat with Karina Martinez, Co-Founder and CEO of Drafted.",
     impact: "Successfully launched an inaugural co-branded conference from zero, creating a unified brand identity across two distinct student organizations. Brand partnerships with Lo and Sons and Coca-Cola. Two original logos became official conference merch. Live brand activation via networking bingo and a product giveaway drove audience engagement throughout the event. Community session amplified a student-founded nonprofit to a professional audience.",
     press: "USC Elevate Summit, inaugural edition. Brand partners: Lo and Sons, Coca-Cola. Keynote: Andy Muir, CFO of SKIMS. Fireside chat: Karina Martinez, Co-Founder and CEO of Drafted.",
-    gallery: [card3, card1, card5],
+    gallery: [elevateGallery1, elevateGallery2, elevateGallery3, elevateGallery4, elevateGallery5],
   },
   {
     id: "hbo-barry-emmys",
