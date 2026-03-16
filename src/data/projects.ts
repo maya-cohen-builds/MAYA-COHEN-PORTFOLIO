@@ -152,4 +152,4 @@ export const projects: Project[] = [
   },
 ];
 
-export const filterTags = ["All", "Gaming", "Enterprise", "Live Events", "Campus", "Content"] as const;
+export const filterTags = ["All", "Enterprise", "Live Events", "Campus", "Content"] as const;
