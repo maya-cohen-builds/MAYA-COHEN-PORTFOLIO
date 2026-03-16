@@ -150,6 +150,19 @@ export const projects: Project[] = [
     press: "HBO Barry Season 4. 75th Annual Emmy Awards, 11 nominations including Outstanding Comedy Series. Henry Winkler, nominated Outstanding Supporting Actor in a Comedy Series.",
     gallery: [card4, card2, card6],
   },
+  {
+    id: "kings-hawaiian-case-competition",
+    brand: "King's Hawaiian x USC GMA",
+    title: "King's Hawaiian 75th Anniversary Case Competition",
+    description: "Produced a branded graduate marketing case competition around King's Hawaiian's 75th anniversary milestone as Associate VP of Case Competitions.",
+    tag: "Campus",
+    image: card1,
+    context: "King's Hawaiian, the beloved bread and rolls brand, celebrated its 75th anniversary as one of America's most recognizable family food brands. The USC Graduate Marketing Association created a branded case competition around the milestone, challenging graduate marketing students to develop real strategic solutions for a legacy consumer brand navigating modern market pressures.",
+    role: "As Associate VP of Case Competitions for the USC Graduate Marketing Association, I produced the full competition experience end to end. I owned event logistics and production, recruited and coordinated judges from the marketing industry, recruited competing teams, and managed all marketing and promotions for the event to drive participation and visibility across the USC Marshall graduate community.",
+    impact: "Successfully produced a branded case competition experience anchored around a 75th anniversary milestone for a nationally recognized consumer brand. Delivered a professional competition format that gave graduate marketers real exposure to senior industry judges while creating a branded activation moment for King's Hawaiian within the USC Marshall ecosystem.",
+    press: "King's Hawaiian 75th Anniversary Marketing Case Competition. USC Graduate Marketing Association, USC Marshall School of Business.",
+    gallery: [card1, card3, card5],
+  },
 ];
 
 export const filterTags = ["All", "Enterprise", "Live Events", "Campus", "Content"] as const;
