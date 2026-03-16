@@ -10,6 +10,7 @@ import bizhacksGallery2 from "@/assets/bizhacks-gallery-2.jpg";
 import bizhacksGallery3 from "@/assets/bizhacks-gallery-3.jpg";
 import bizhacksGallery4 from "@/assets/bizhacks-gallery-4.jpg";
 import bizhacksGallery5 from "@/assets/bizhacks-gallery-5.jpg";
+import bizhacksGallery6 from "@/assets/bizhacks-gallery-6.jpg";
 import infosysCover from "@/assets/infosys-cover.jpeg";
 import infosysGallery1 from "@/assets/infosys-gallery-1.jpeg";
 import infosysGallery3 from "@/assets/infosys-gallery-3.jpeg";
@@ -95,7 +96,7 @@ export const projects: Project[] = [
     role: "As MBA Intern supporting the Global Head of Brand at Infosys, I independently built and pressure tested Azure-native AI agents as part of my internship project automating marketing operations workflows. I brought this project into the BizHacks competition and also served as a mentor to undergraduate software engineers, guiding them through both the technical build process and the product marketing framing of their solutions.",
     impact: "Competed and mentored simultaneously, demonstrating technical depth unusual for a marketing intern. The underlying project delivered a working AI agent solution for marketing ops automation using Microsoft Azure infrastructure.",
     press: "Infosys InStep BizHacks 2025. Infosys InStep global internship program.",
-    gallery: [bizhacksGallery1, bizhacksGallery2, bizhacksGallery3, bizhacksGallery4, bizhacksGallery5],
+    gallery: [bizhacksGallery1, bizhacksGallery2, bizhacksGallery3, bizhacksGallery4, bizhacksGallery5, bizhacksGallery6],
   },
   {
     id: "becoming-memoir-launch",
