@@ -13,13 +13,15 @@ const ContactSection = () => (
     </motion.h2>
     <div className="flex justify-center gap-12">
       <a
-        href="mailto:hello@example.com"
+        href="mailto:mayacohen033@gmail.com"
         className="text-primary uppercase tracking-widest text-sm hover:line-through transition-all"
       >
         Email
       </a>
       <a
-        href="#"
+        href="https://www.linkedin.com/in/mayadcohen/"
+        target="_blank"
+        rel="noopener noreferrer"
         className="text-primary uppercase tracking-widest text-sm hover:line-through transition-all"
       >
         LinkedIn
