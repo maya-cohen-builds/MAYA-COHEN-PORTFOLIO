@@ -4,6 +4,12 @@ import card3 from "@/assets/card-3.jpg";
 import card4 from "@/assets/card-4.jpg";
 import card5 from "@/assets/card-5.jpg";
 import card6 from "@/assets/card-6.jpg";
+import bizhacksCover from "@/assets/bizhacks-cover.jpg";
+import bizhacksGallery1 from "@/assets/bizhacks-gallery-1.jpg";
+import bizhacksGallery2 from "@/assets/bizhacks-gallery-2.jpg";
+import bizhacksGallery3 from "@/assets/bizhacks-gallery-3.jpg";
+import bizhacksGallery4 from "@/assets/bizhacks-gallery-4.jpg";
+import bizhacksGallery5 from "@/assets/bizhacks-gallery-5.jpg";
 import infosysCover from "@/assets/infosys-cover.jpeg";
 import infosysGallery1 from "@/assets/infosys-gallery-1.jpeg";
 import infosysGallery3 from "@/assets/infosys-gallery-3.jpeg";
@@ -84,12 +90,12 @@ export const projects: Project[] = [
     title: "Infosys InStep BizHacks 2025",
     description: "Brought an independent Azure AI agent project to a competitive internal hackathon while mentoring undergraduate engineers through their first build.",
     tag: "Enterprise",
-    image: card5,
+    image: bizhacksCover,
     context: "The Infosys InStep BizHacks 2025 was an internal hackathon challenging undergraduate software engineers to build and deploy AI-powered business solutions. For many participants it was their first hackathon experience, requiring both technical guidance and strategic marketing mentorship to bring their products to life.",
     role: "As MBA Intern supporting the Global Head of Brand at Infosys, I independently built and pressure tested Azure-native AI agents as part of my internship project automating marketing operations workflows. I brought this project into the BizHacks competition and also served as a mentor to undergraduate software engineers, guiding them through both the technical build process and the product marketing framing of their solutions.",
     impact: "Competed and mentored simultaneously, demonstrating technical depth unusual for a marketing intern. The underlying project delivered a working AI agent solution for marketing ops automation using Microsoft Azure infrastructure.",
     press: "Infosys InStep BizHacks 2025. Infosys InStep global internship program.",
-    gallery: [card5, card1, card3],
+    gallery: [bizhacksGallery1, bizhacksGallery2, bizhacksGallery3, bizhacksGallery4, bizhacksGallery5],
   },
   {
     id: "becoming-memoir-launch",
