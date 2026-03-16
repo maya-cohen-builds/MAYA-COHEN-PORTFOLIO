@@ -98,6 +98,19 @@ export const projects: Project[] = [
     press: "Michelle Obama, Becoming, Crown Publishing 2018. Tracee Ellis Ross, Glamour Women of the Year. New York Times Books interview, November 2018.",
     gallery: [card3, card1, card6],
   },
+  {
+    id: "humanitas-prize-42",
+    brand: "The Humanitas Prize",
+    title: "42nd Annual Humanitas Prize Awards",
+    description: "Freelance Event Producer managing live production, vendor coordination, real-time IT troubleshooting, and live social coverage at a Hollywood awards ceremony.",
+    tag: "Live Events",
+    image: card1,
+    context: "The Humanitas Prize is one of Hollywood's most respected awards ceremonies, recognizing film and television writers whose work affirms the human condition. The 42nd Annual event required a production team capable of managing both the high-visibility public facing elements of a red carpet awards show and the behind-the-scenes operational complexity of a live event with real-time technical demands.",
+    role: "As Freelance Event Producer, I owned multiple workstreams simultaneously across the full event lifecycle. Pre-event I managed social media strategy, content creation, copy, and scheduling across platforms. During the live event I coordinated directly with vendors on the ground, resolved live technical and IT issues in real time, executed live social media coverage on X, and contributed to red carpet photography at the step and repeat.",
+    impact: "Successfully produced a full-scale Hollywood awards ceremony activation end to end, managing the intersection of live event operations and real-time digital brand presence simultaneously. The dual responsibility of floor production and live social coverage is a skill set directly transferable to any brand activation requiring both physical and digital execution.",
+    press: "42nd Annual Humanitas Prize. Industry attendees spanning film and television writers, producers, and network executives.",
+    gallery: [card1, card4, card6],
+  },
 ];
 
 export const filterTags = ["All", "Gaming", "Enterprise", "Live Events", "Campus", "Content"] as const;
