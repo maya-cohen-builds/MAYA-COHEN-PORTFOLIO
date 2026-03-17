@@ -30,6 +30,8 @@ import gwibGallery4 from "@/assets/gwib-gallery-4.png";
 import gwibGallery5 from "@/assets/gwib-gallery-5.png";
 import gwibGallery6 from "@/assets/gwib-gallery-6.png";
 import gwibCover from "@/assets/gwib-cover.jpeg";
+import gwibGallery7 from "@/assets/gwib-gallery-7.png";
+import gwibGallery8 from "@/assets/gwib-gallery-8.png";
 
 export type ProjectLink = {
   text: string;
