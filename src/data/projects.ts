@@ -4,6 +4,9 @@ import card3 from "@/assets/card-3.jpg";
 import card4 from "@/assets/card-4.jpg";
 import card5 from "@/assets/card-5.jpg";
 import card6 from "@/assets/card-6.jpg";
+import khCover from "@/assets/kh-cover.jpeg";
+import khGallery2 from "@/assets/kh-gallery-2.jpeg";
+import khGallery3 from "@/assets/kh-gallery-3.jpg";
 import bizhacksCover from "@/assets/bizhacks-cover.jpg";
 import bizhacksGallery1 from "@/assets/bizhacks-gallery-1.jpg";
 import bizhacksGallery2 from "@/assets/bizhacks-gallery-2.jpg";
@@ -194,12 +197,12 @@ export const projects: Project[] = [
     title: "King's Hawaiian 75th Anniversary Case Competition",
     description: "Produced a branded graduate marketing case competition around King's Hawaiian's 75th anniversary milestone as Associate VP of Case Competitions.",
     tag: "Campus",
-    image: card1,
+    image: khCover,
     context: "King's Hawaiian, the beloved bread and rolls brand, celebrated its 75th anniversary as one of America's most recognizable family food brands. The USC Graduate Marketing Association created a branded case competition around the milestone, challenging graduate marketing students to develop real strategic solutions for a legacy consumer brand navigating modern market pressures.",
     role: "As Associate VP of Case Competitions for the USC Graduate Marketing Association, I produced the full competition experience end to end. I owned event logistics and production, recruited and coordinated judges from the marketing industry, recruited competing teams, and managed all marketing and promotions for the event to drive participation and visibility across the USC Marshall graduate community.",
     impact: "Successfully produced a branded case competition experience anchored around a 75th anniversary milestone for a nationally recognized consumer brand. Delivered a professional competition format that gave graduate marketers real exposure to senior industry judges while creating a branded activation moment for King's Hawaiian within the USC Marshall ecosystem.",
     press: "King's Hawaiian 75th Anniversary Marketing Case Competition. USC Graduate Marketing Association, USC Marshall School of Business.",
-    gallery: [card1, card3, card5],
+    gallery: [khGallery2, khGallery3],
   },
 ];
 
