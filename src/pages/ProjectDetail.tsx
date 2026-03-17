@@ -206,7 +206,7 @@ const ProjectDetail = () => {
                   <img
                     src={img}
                     alt={`${project.title} gallery ${i + 1}`}
-                    className={`w-full h-full ${isKHWide || isBecoming || isHumanitas ? "object-contain bg-muted" : "object-cover"}`}
+                    className={`w-full h-full ${isBecoming || isHumanitas ? "object-contain bg-muted" : "object-cover"}`}
                     style={isElevateMug ? { objectPosition: 'center center', transform: 'scale(1.4)' } : undefined}
                     loading="lazy"
                   />
