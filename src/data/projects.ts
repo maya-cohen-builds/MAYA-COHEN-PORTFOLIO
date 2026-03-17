@@ -248,7 +248,7 @@ export const projects: Project[] = [
   {
     id: "kings-hawaiian-case-competition",
     brand: "King's Hawaiian x USC GMA",
-    title: "King's Hawaiian 75th Anniversary \nRegional Activation",
+    title: "King's Hawaiian 75th Anniversary SoCal Region Activation",
     description: "Produced a branded graduate marketing case competition around King's Hawaiian's 75th anniversary milestone as Associate VP of Case Competitions.",
     tag: "Campus",
     image: khCaseComp,
