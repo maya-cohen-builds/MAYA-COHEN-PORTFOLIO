@@ -14,7 +14,7 @@ import pipexLaunchLetter from "@/assets/pipex-launch-letter.png";
 import pipexHappyHour from "@/assets/pipex-happy-hour.png";
 import pipexTrollsHoliday from "@/assets/pipex-trolls-holiday.jpg";
 import pipexCardCover from "@/assets/pipex-card-cover.webp";
-import khGallery1 from "@/assets/kh-gallery-1.png";
+import khGallery1 from "@/assets/kh-gallery-1.jpeg";
 import khGallery2 from "@/assets/kh-gallery-2.jpeg";
 import khGallery3 from "@/assets/kh-gallery-3.jpg";
 import khGallery4 from "@/assets/kh-gallery-4.png";
