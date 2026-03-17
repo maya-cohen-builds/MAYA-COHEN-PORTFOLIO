@@ -159,7 +159,7 @@ export const projects: Project[] = [
   {
     id: "humanitas-prize-42",
     brand: "The Humanitas Prize",
-    title: "42nd Annual Humanitas Prizes Awards Show and Toast",
+    title: "42nd Annual Humanitas Prizes Awards Show & Toast",
     description: "Freelance Event Producer managing live production, vendor coordination, real-time IT troubleshooting, and live social coverage at a Hollywood awards ceremony.",
     tag: "Live Events",
     image: card1,
