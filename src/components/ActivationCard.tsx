@@ -19,10 +19,10 @@ const ActivationCard = ({ project }: { project: Project }) => {
         <img
           src={project.cardImage || project.image}
           alt={project.title}
-          className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
+          className={`w-full h-full transition-transform duration-700 group-hover:scale-105 ${project.cardImage ? "object-contain bg-[#0a0a2e]" : "object-cover"}`}
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-background/20 group-hover:bg-background/40 transition-colors duration-500" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent group-hover:from-background/70 transition-colors duration-500" />
       </div>
       <div>
         <span className="label-text mb-2 block">{project.brand}</span>
