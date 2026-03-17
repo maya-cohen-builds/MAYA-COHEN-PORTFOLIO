@@ -4,6 +4,55 @@ import { projects, type ProjectLink } from "@/data/projects";
 import { ArrowLeft } from "lucide-react";
 import React from "react";
 
+const renderPressContent = (text: string, links?: ProjectLink[]): React.ReactNode => {
+  // Split into segments: quoted text and non-quoted text
+  const parts: React.ReactNode[] = [];
+  const regex = /(\"[^\"]+\")/g;
+  let lastIndex = 0;
+  let match;
+  let key = 0;
+
+  while ((match = regex.exec(text)) !== null) {
+    // Text before the quote (could be attribution of previous quote)
+    if (match.index > lastIndex) {
+      const before = text.slice(lastIndex, match.index);
+      // Check if this text follows a quote (attribution line)
+      if (lastIndex > 0) {
+        parts.push(
+          <span key={key++} className="opacity-60 mt-2 inline-block">
+            {renderTextWithLinks(before.trim(), links)}
+          </span>
+        );
+      } else {
+        parts.push(<span key={key++}>{renderTextWithLinks(before, links)}</span>);
+      }
+    }
+
+    // The quote itself - italicized
+    parts.push(
+      <em key={key++} className="italic">{match[1]}</em>
+    );
+
+    lastIndex = regex.lastIndex;
+  }
+
+  // Remaining text after last quote (attribution)
+  if (lastIndex < text.length) {
+    const remaining = text.slice(lastIndex);
+    if (lastIndex > 0) {
+      parts.push(
+        <span key={key++} className="opacity-60 mt-2 inline-block">
+          {renderTextWithLinks(remaining.trim(), links)}
+        </span>
+      );
+    } else {
+      parts.push(<span key={key++}>{renderTextWithLinks(remaining, links)}</span>);
+    }
+  }
+
+  return <>{parts}</>;
+};
+
 const renderTextWithLinks = (text: string, links?: ProjectLink[]): React.ReactNode => {
   if (!links || links.length === 0) return text;
 
@@ -115,9 +164,11 @@ const ProjectDetail = () => {
               className="border-t border-border pt-8"
             >
               <h2 className="label-text mb-6">{section.label}</h2>
-              <p className="text-lg text-foreground/80 leading-relaxed max-w-3xl">
-                {renderTextWithLinks(section.content, project.links)}
-              </p>
+              <div className="text-lg text-foreground/80 leading-relaxed max-w-3xl whitespace-pre-line">
+                {section.label === "Press & Recognition"
+                  ? renderPressContent(section.content, project.links)
+                  : renderTextWithLinks(section.content, project.links)}
+              </div>
             </motion.div>
           ))}
         </div>
