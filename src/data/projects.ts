@@ -59,6 +59,7 @@ export type Project = {
   description: string;
   tag: string;
   image: string;
+  cardImage?: string;
   context: string;
   role: string;
   impact: string;
