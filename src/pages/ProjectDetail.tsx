@@ -125,7 +125,7 @@ const ProjectDetail = () => {
         {/* Gallery */}
         <div className="mt-24">
           <h2 className="label-text mb-8">Gallery</h2>
-          <div className="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {project.gallery.map((img, i) => (
               <motion.div
                 key={i}
@@ -133,12 +133,12 @@ const ProjectDetail = () => {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="break-inside-avoid overflow-hidden bg-muted"
+                className="aspect-square overflow-hidden bg-muted"
               >
                 <img
                   src={img}
                   alt={`${project.title} gallery ${i + 1}`}
-                  className="w-full h-auto"
+                  className="w-full h-full object-cover"
                   loading="lazy"
                 />
               </motion.div>

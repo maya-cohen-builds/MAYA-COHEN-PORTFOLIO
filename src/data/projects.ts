@@ -204,7 +204,7 @@ export const projects: Project[] = [
     context: "King's Hawaiian, the beloved bread and rolls brand, celebrated its 75th anniversary as one of America's most recognizable family food brands. The USC Graduate Marketing Association created a branded case competition around the milestone, challenging graduate marketing students to develop real strategic solutions for a legacy consumer brand navigating modern market pressures.",
     role: "As Associate VP of Case Competitions for the USC Graduate Marketing Association, I produced the full competition experience end to end. I owned event logistics and production, recruited and coordinated judges from the marketing industry, recruited competing teams, and managed all marketing and promotions for the event to drive participation and visibility across the USC Marshall graduate community.",
     impact: "Successfully produced a branded case competition experience anchored around a 75th anniversary milestone for a nationally recognized consumer brand. Delivered a professional competition format that gave graduate marketers real exposure to senior industry judges while creating a branded activation moment for King's Hawaiian within the USC Marshall ecosystem.",
-    gallery: [khGallery1, khGallery2, khGallery3, khGallery5, khCover],
+    gallery: [khGallery1, khGallery2, khCover, khGallery5, khGallery3],
   },
 ];
 
