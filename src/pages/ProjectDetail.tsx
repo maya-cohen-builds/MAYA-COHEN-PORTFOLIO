@@ -164,9 +164,11 @@ const ProjectDetail = () => {
               className="border-t border-border pt-8"
             >
               <h2 className="label-text mb-6">{section.label}</h2>
-              <p className="text-lg text-foreground/80 leading-relaxed max-w-3xl">
-                {renderTextWithLinks(section.content, project.links)}
-              </p>
+              <div className="text-lg text-foreground/80 leading-relaxed max-w-3xl whitespace-pre-line">
+                {section.label === "Press & Recognition"
+                  ? renderPressContent(section.content, project.links)
+                  : renderTextWithLinks(section.content, project.links)}
+              </div>
             </motion.div>
           ))}
         </div>
