@@ -34,7 +34,6 @@ import becomingGlamourWoty from "@/assets/becoming-glamour-woty.jpg";
 import becomingBookDisplay from "@/assets/becoming-book-display.jpg";
 import becomingTimesup from "@/assets/becoming-timesup.webp";
 import becomingWomenIllustration from "@/assets/becoming-women-illustration.jpeg";
-import becomingGlamourTracee from "@/assets/becoming-glamour-tracee.jpg";
 import infosysGallery1 from "@/assets/infosys-gallery-1.jpeg";
 import infosysGallery3 from "@/assets/infosys-gallery-3.jpeg";
 import infosysGallery4 from "@/assets/infosys-gallery-4.jpeg";
@@ -89,8 +88,7 @@ export const projects: Project[] = [
     title: "Becoming: Messaging Strategy for Michelle Obama's Memoir Launch",
     description: "Freelance creative strategist supporting Tracee Ellis Ross's press role in the Becoming campaign, including NYT interview prep with Michelle Obama.",
     tag: "Content",
-    image: becomingGlamourTracee,
-    cardImage: becomingTourPoster,
+    image: becomingTourPoster,
     context: "In 2018, Michelle Obama launched Becoming, one of the best-selling memoirs in publishing history. Tracee Ellis Ross, coming off a viral Glamour Women of the Year speech, was selected as a key press figure in the Becoming campaign, including a high-profile New York Times interview with Obama herself. To prepare for this role Ross needed a strategic creative partner to help shape her approach to the material.",
     role: "As a freelance creative strategist working directly with Tracee Ellis Ross, I supported her across multiple engagements during this period. I contributed copyediting, messaging and positioning input, and strategy advising on her Glamour Women of the Year speech. For the Michelle Obama Becoming press work specifically, I built messaging and positioning frameworks by selecting and organizing key content from the memoir, synthesizing those themes for Tracee, and helping structure talking points and media training materials she used in her press appearances including her NYT interview with Obama. Our working sessions took place across Los Angeles, including on the set of Black-ish and at Soho House.",
     impact: "Contributed to the press infrastructure behind one of the most culturally significant book launches of the decade. Tracee Ellis Ross's Glamour Women of the Year speech went viral. Her NYT interview with Michelle Obama became one of the defining press moments of the Becoming campaign.",
