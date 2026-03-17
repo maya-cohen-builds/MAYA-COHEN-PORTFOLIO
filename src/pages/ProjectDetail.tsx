@@ -132,7 +132,7 @@ const ProjectDetail = () => {
               const isGWIB = project.id === "usc-marshall-gwib";
               const isHenry = project.id === "being-henry-book-tour";
               const isBecoming = project.id === "becoming-memoir-launch";
-              const isMasonry = isGWIB || isPipex || isHenry || isBecoming;
+              const isMasonry = isGWIB || isPipex || isHenry;
               return isMasonry ? (
                 <motion.div
                   key={i}
