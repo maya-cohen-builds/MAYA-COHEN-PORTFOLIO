@@ -15,14 +15,16 @@ const ActivationCard = ({ project }: { project: Project }) => {
       className="group cursor-pointer"
       onClick={() => navigate(`/project/${project.id}`)}
     >
-      <div className="aspect-[16/9] overflow-hidden bg-muted mb-6 relative">
+      <div className="aspect-[16/9] overflow-hidden mb-6 relative">
         <img
           src={project.image}
           alt={project.title}
           className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-background/20 group-hover:bg-background/40 transition-colors duration-500" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-transparent to-background/60" />
+        <div className="absolute inset-0 bg-background/10 group-hover:bg-background/25 transition-colors duration-500" />
       </div>
       <div>
         <span className="label-text mb-2 block">{project.brand}</span>
