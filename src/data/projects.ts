@@ -69,6 +69,13 @@ import barrySundayToday from "@/assets/barry-sunday-today.png";
 import humanitasBeverlyWilshire from "@/assets/humanitas-beverly-wilshire.webp";
 import humanitasDga from "@/assets/humanitas-dga.jpg";
 import humanitasWinners from "@/assets/humanitas-winners.webp";
+import tsrComplexconFloor from "@/assets/tsr-complexcon-floor.webp";
+import tsrLogo from "@/assets/tsr-logo.jpg";
+import tsrSxsw from "@/assets/tsr-sxsw.jpg";
+import tsrTechcrunch from "@/assets/tsr-techcrunch.jpg";
+import tsrAfrotech from "@/assets/tsr-afrotech.webp";
+import tsrBeautycon from "@/assets/tsr-beautycon.jpg";
+import tsrComplexconLogo from "@/assets/tsr-complexcon-logo.png";
 
 export type ProjectLink = {
   text: string;
