@@ -138,12 +138,12 @@ const ProjectDetail = () => {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className={`overflow-hidden break-inside-avoid mb-4 ${isPipex ? "bg-white" : "bg-muted"}`}
+                  className="overflow-hidden bg-muted break-inside-avoid mb-4"
                 >
                   <img
                     src={img}
                     alt={`${project.title} gallery ${i + 1}`}
-                    className={`w-full h-auto ${isPipex ? "object-contain p-4" : "object-cover"}`}
+                    className="w-full h-auto object-cover"
                     loading="lazy"
                   />
                 </motion.div>
