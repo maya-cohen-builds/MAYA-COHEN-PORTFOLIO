@@ -102,8 +102,8 @@ export const projects: Project[] = [
   {
     id: "becoming-memoir-launch",
     brand: "Tracee Ellis Ross x Michelle Obama",
-    title: "Becoming: Messaging Strategy for Michelle Obama's Memoir Launch",
-    description: "Freelance creative strategist supporting Tracee Ellis Ross's press role in the Becoming campaign, including NYT interview prep with Michelle Obama.",
+    title: "Becoming: Michelle Obama's Memoir Launch",
+    description: "Executive communications contractor supporting Tracee Ellis Ross's press role in the Becoming campaign, including NYT interview prep with Michelle Obama.",
     tag: "Content",
     image: becomingTourPoster,
     context: "In 2018, Michelle Obama launched Becoming, one of the best-selling memoirs in publishing history. Tracee Ellis Ross, coming off a viral Glamour Women of the Year speech, was selected as a key press figure in the Becoming campaign, including a high-profile New York Times interview with Obama herself. To prepare for this role Ross needed a strategic creative partner to help shape her approach to the material.",
