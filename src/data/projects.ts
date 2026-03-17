@@ -23,6 +23,12 @@ import elevateGallery2 from "@/assets/elevate-gallery-2.jpg";
 import elevateGallery3 from "@/assets/elevate-gallery-3.jpg";
 import elevateGallery4 from "@/assets/elevate-gallery-4.jpg";
 import elevateGallery5 from "@/assets/elevate-gallery-5.jpg";
+import gwibGallery1 from "@/assets/gwib-gallery-1.jpg";
+import gwibGallery2 from "@/assets/gwib-gallery-2.png";
+import gwibGallery3 from "@/assets/gwib-gallery-3.png";
+import gwibGallery4 from "@/assets/gwib-gallery-4.png";
+import gwibGallery5 from "@/assets/gwib-gallery-5.png";
+import gwibGallery6 from "@/assets/gwib-gallery-6.png";
 
 export type ProjectLink = {
   text: string;
