@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroBg from "@/assets/hero-bg.jpg";
+import HeroGeometricBackground from "./HeroGeometricBackground";
 
 const HeroSection = () => {
   const scrollToWork = () => {
@@ -8,10 +8,7 @@ const HeroSection = () => {
 
   return (
     <section className="relative h-svh w-full flex flex-col justify-end p-8 md:p-16 overflow-hidden bg-background">
-      <div className="absolute inset-0 z-0 opacity-40">
-        <img src={heroBg} alt="" className="h-full w-full object-cover" />
-      </div>
-      <div className="absolute inset-0 z-[1] bg-gradient-to-t from-background via-background/60 to-transparent" />
+      <HeroGeometricBackground />
 
       <div className="relative z-10 max-w-5xl">
         <motion.h1
