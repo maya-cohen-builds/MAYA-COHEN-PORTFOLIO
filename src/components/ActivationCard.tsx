@@ -15,14 +15,29 @@ const ActivationCard = ({ project }: { project: Project }) => {
       className="group cursor-pointer"
       onClick={() => navigate(`/project/${project.id}`)}
     >
-      <div className="aspect-[16/9] overflow-hidden bg-muted mb-6 relative">
+      <div className={`overflow-hidden mb-6 relative ${project.id === "pipex-virtual-launch" ? "aspect-[16/9] bg-muted" : ""}`}>
         <img
           src={project.image}
           alt={project.title}
-          className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
+          className={`w-full transition-transform duration-700 group-hover:scale-105 ${
+            project.id === "pipex-virtual-launch"
+              ? "object-cover h-full"
+              : "object-cover h-full aspect-[16/9]"
+          }`}
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-background/20 group-hover:bg-background/40 transition-colors duration-500" />
+        {project.id === "pipex-virtual-launch" ? (
+          <div className="absolute inset-0 bg-background/20 group-hover:bg-background/40 transition-colors duration-500" />
+        ) : (
+          <>
+            {/* Top-to-bottom gradient */}
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/60 to-background" />
+            {/* Left edge fade */}
+            <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-transparent w-1/3" />
+            {/* Right edge fade */}
+            <div className="absolute inset-0 bg-gradient-to-l from-background via-transparent to-transparent left-2/3" />
+          </>
+        )}
       </div>
       <div>
         <span className="label-text mb-2 block">{project.brand}</span>
