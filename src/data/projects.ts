@@ -5,8 +5,10 @@ import card4 from "@/assets/card-4.jpg";
 import card5 from "@/assets/card-5.jpg";
 import card6 from "@/assets/card-6.jpg";
 import khCover from "@/assets/kh-cover.jpeg";
+import khGallery1 from "@/assets/kh-gallery-1.png";
 import khGallery2 from "@/assets/kh-gallery-2.jpeg";
 import khGallery3 from "@/assets/kh-gallery-3.jpg";
+import khGallery4 from "@/assets/kh-gallery-4.png";
 import bizhacksCover from "@/assets/bizhacks-cover.jpg";
 import bizhacksGallery1 from "@/assets/bizhacks-gallery-1.jpg";
 import bizhacksGallery2 from "@/assets/bizhacks-gallery-2.jpg";
@@ -202,7 +204,7 @@ export const projects: Project[] = [
     role: "As Associate VP of Case Competitions for the USC Graduate Marketing Association, I produced the full competition experience end to end. I owned event logistics and production, recruited and coordinated judges from the marketing industry, recruited competing teams, and managed all marketing and promotions for the event to drive participation and visibility across the USC Marshall graduate community.",
     impact: "Successfully produced a branded case competition experience anchored around a 75th anniversary milestone for a nationally recognized consumer brand. Delivered a professional competition format that gave graduate marketers real exposure to senior industry judges while creating a branded activation moment for King's Hawaiian within the USC Marshall ecosystem.",
     press: "King's Hawaiian 75th Anniversary Marketing Case Competition. USC Graduate Marketing Association, USC Marshall School of Business.",
-    gallery: [khGallery2, khGallery3],
+    gallery: [khGallery1, khGallery2, khGallery3, khGallery4],
   },
 ];
 
