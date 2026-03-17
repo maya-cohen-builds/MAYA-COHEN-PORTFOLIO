@@ -125,11 +125,28 @@ const ProjectDetail = () => {
         {/* Gallery */}
         <div className="mt-24">
           <h2 className="label-text mb-8">Gallery</h2>
-          <div className={`grid gap-4 ${project.id === "pipex-virtual-launch" ? "grid-cols-1" : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"}`}>
+          <div className={project.id === "usc-marshall-gwib" ? "columns-1 md:columns-2 lg:columns-3" : `grid gap-4 ${project.id === "pipex-virtual-launch" ? "grid-cols-1" : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"}`}>
             {project.gallery.map((img, i) => {
               const isKHWide = project.id === "kings-hawaiian-case-competition" && i === project.gallery.length - 1;
               const isPipex = project.id === "pipex-virtual-launch";
-              return (
+              const isGWIB = project.id === "usc-marshall-gwib";
+              return isGWIB ? (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: i * 0.1 }}
+                  className="overflow-hidden bg-muted break-inside-avoid mb-4"
+                >
+                  <img
+                    src={img}
+                    alt={`${project.title} gallery ${i + 1}`}
+                    className="w-full h-auto object-cover"
+                    loading="lazy"
+                  />
+                </motion.div>
+              ) : (
                 <motion.div
                   key={i}
                   initial={{ opacity: 0 }}
