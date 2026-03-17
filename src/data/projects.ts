@@ -19,7 +19,6 @@ import khGallery2 from "@/assets/kh-gallery-2.jpeg";
 import khGallery3 from "@/assets/kh-gallery-3.jpg";
 import khGallery4 from "@/assets/kh-gallery-4.png";
 import khGallery5 from "@/assets/kh-gallery-5.jpeg";
-import khGallery6 from "@/assets/kh-gallery-6.jpeg";
 import khCaseComp from "@/assets/kh-case-comp.png";
 import bizhacksCover from "@/assets/bizhacks-cover.jpg";
 import bizhacksGallery1 from "@/assets/bizhacks-gallery-1.jpg";
@@ -255,8 +254,8 @@ export const projects: Project[] = [
     image: khCaseComp,
     context: "King's Hawaiian, the beloved bread and rolls brand, celebrated its 75th anniversary as one of America's most recognizable family food brands. The USC Graduate Marketing Association created a branded case competition around the milestone, challenging graduate marketing students from USC Marshall and UCLA Anderson School of Management to develop real strategic solutions for a legacy consumer brand navigating modern market pressures.",
     role: "As Associate VP of Case Competitions for the USC Graduate Marketing Association, I produced the full competition experience end to end. I owned event logistics and production, recruited and coordinated judges from the marketing industry, recruited competing teams, and managed all marketing and promotions for the event to drive participation and visibility across the USC Marshall graduate community.",
-    impact: "Successfully produced a branded case competition experience anchored around a 75th anniversary milestone for a nationally recognized consumer brand. Delivered a professional competition format that gave graduate marketers real exposure to senior industry judges while creating a branded activation moment for King's Hawaiian within the USC Marshall ecosystem. Prizes were awarded to the top three teams: $500 for first place, $250 for second place, and $125 for third place. One participant even landed a coveted marketing MBA internship with the company, pictured below.",
-    gallery: [khGallery5, khGallery1, khGallery3, khGallery6],
+    impact: "Successfully produced a branded case competition experience anchored around a 75th anniversary milestone for a nationally recognized consumer brand. Delivered a professional competition format that gave graduate marketers real exposure to senior industry judges while creating a branded activation moment for King's Hawaiian within the USC Marshall ecosystem. Prizes were awarded to the top three teams: $500 for first place, $250 for second place, and $125 for third place.",
+    gallery: [khGallery5, khGallery1, khGallery3, khCover],
   },
 ];
 
