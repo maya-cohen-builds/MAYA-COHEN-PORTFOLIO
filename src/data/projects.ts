@@ -169,6 +169,14 @@ export const projects: Project[] = [
     impact: "Drove 200% growth in social engagement and inbound partnership requests as a direct result of the brand overhaul, new visual identity system, and campaign programming. Delivered a complete brand identity overhaul including a new logo that became official organization collateral. Secured five brand partnerships and produced 15+ events serving 500+ members across all Marshall graduate programs. Mentored two emerging marketing professionals simultaneously while managing the full marketing function independently.",
     press: "\"She re-vamped our logo, our campaigns, and our posts. Everything became cohesive. GWiB has been reached out to by major conferences, brands, and professionals to collaborate primarily because of our increased social media presence and engagement.\" Jasmine Kaur, GWIB President 2025-2026, LinkedIn Recommendation, November 2025.",
     gallery: [gwibGallery1, gwibGallery2, gwibGallery3, gwibGallery4, gwibGallery5, gwibGallery6, gwibGallery8],
+    links: [
+      { text: "LA Sparks", url: "https://sparks.wnba.com" },
+      { text: "Nike x FitLab", url: "https://www.nike.com" },
+      { text: "Nike", url: "https://www.nike.com" },
+      { text: "Kiehl's", url: "https://www.kiehls.com" },
+      { text: "Pickle", url: "https://www.picklepickleball.com" },
+      { text: "Lo & Sons", url: "https://www.loandsons.com" },
+    ],
   },
   {
     id: "usc-elevate-summit",
