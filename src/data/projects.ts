@@ -13,6 +13,7 @@ import pipexTrollsEmail from "@/assets/pipex-trolls-email.png";
 import pipexLaunchLetter from "@/assets/pipex-launch-letter.png";
 import pipexHappyHour from "@/assets/pipex-happy-hour.png";
 import pipexTrollsHoliday from "@/assets/pipex-trolls-holiday.jpg";
+import pipexCardCover from "@/assets/pipex-card-cover.webp";
 import khGallery1 from "@/assets/kh-gallery-1.png";
 import khGallery2 from "@/assets/kh-gallery-2.jpeg";
 import khGallery3 from "@/assets/kh-gallery-3.jpg";
@@ -59,6 +60,7 @@ export type Project = {
   description: string;
   tag: string;
   image: string;
+  cardImage?: string;
   context: string;
   role: string;
   impact: string;
@@ -88,6 +90,7 @@ export const projects: Project[] = [
     description: "Co-led virtual brand activations for a cloud-native pipeline launch featuring Trolls IP during peak pandemic Zoom fatigue.",
     tag: "Enterprise",
     image: pipexTrollsHoliday,
+    cardImage: pipexCardCover,
     context: "During the pandemic era production shutdown, DreamWorks Animation undertook a major infrastructure transformation, migrating its film pipeline to PipeX, a proprietary cloud-native production system. With in-person events off the table entirely, the studio needed to build internal excitement, drive adoption, and mark key milestones through virtual experiences that could actually cut through widespread Zoom fatigue.",
     role: "As Production Coordinator on the PipeX launch team, I co-led two flagship virtual brand activations tied directly to the pipeline's rollout. The first was a milestone launch celebration marking Trolls' migration onto PipeX, the second a completed film demo and celebration showcasing the finished production running fully on the new system. Across both events I owned the run of show, end-to-end logistics, platform production, and created original media content to support the programming. Audiences ranged from 50 to 150 studio staff and stakeholders per event.",
     impact: "Successfully activated internal adoption and enthusiasm around a complex technical product launch during one of the most challenging periods for live engagement in the industry. The activations served as proof of concept that PipeX could support not just production workflows but the cultural moments that matter to a creative studio.",
