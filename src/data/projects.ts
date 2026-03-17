@@ -230,7 +230,7 @@ export const projects: Project[] = [
     id: "usc-elevate-summit",
     brand: "USC GWIB x Marshall Pride",
     title: "USC Elevate Summit",
-    description: "Elected organizing committee member who created the brand identity, co-produced the full event, and emceed the inaugural conference featuring the CFO of SKIMS.",
+    description: "Elected organizing committee member who created the brand identity, oversaw brand partnership strategy, and emceed the full conference featuring the CFO of SKIMS.",
     tag: "Campus",
     image: elevateCover,
     context: "The USC Elevate Summit was the inaugural partnership conference between USC GWIB's Elevate Her and Marshall Pride's Spotlight Summit, two distinct student organizations coming together for the first time to produce a unified brand experience. The event featured brand partnerships with Lo & Sons and Coca-Cola, keynote talent including the CFO of SKIMS and the Co-Founder and CEO of DRAFTED, and a community session spotlighting a student-led nonprofit.",
