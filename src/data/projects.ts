@@ -52,6 +52,7 @@ import henryHelloSign from "@/assets/henry-hello-sign.png";
 import henrySethMeyers from "@/assets/henry-seth-meyers.png";
 import henryFanexpo from "@/assets/henry-fanexpo.webp";
 import henrySeatedBook from "@/assets/henry-seated-book.jpg";
+import henryHodaJenna from "@/assets/henry-hoda-jenna.png";
 
 export type ProjectLink = {
   text: string;
