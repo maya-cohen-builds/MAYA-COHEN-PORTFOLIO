@@ -126,26 +126,23 @@ const ProjectDetail = () => {
         <div className="mt-24">
           <h2 className="label-text mb-8">Gallery</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {project.gallery.map((img, i) => {
-              const isWideSlide = project.id === "kings-hawaiian-case-competition" && i === 0;
-              return (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className={`overflow-hidden bg-muted ${isWideSlide ? "md:col-span-2 lg:col-span-3 aspect-video" : "aspect-square"}`}
-                >
-                  <img
-                    src={img}
-                    alt={`${project.title} gallery ${i + 1}`}
-                    className={`w-full h-full ${isWideSlide ? "object-contain bg-white" : "object-cover"}`}
-                    loading="lazy"
-                  />
-                </motion.div>
-              );
-            })}
+            {project.gallery.map((img, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                className="aspect-square overflow-hidden bg-muted"
+              >
+                <img
+                  src={img}
+                  alt={`${project.title} gallery ${i + 1}`}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+              </motion.div>
+            ))}
           </div>
         </div>
       </div>
