@@ -47,9 +47,7 @@ const AboutSection = () =>
     </p>
       <div className="divider mb-8" />
       <div className="grid grid-cols-2 gap-8 text-xs uppercase tracking-widest text-muted-foreground">
-        <div className="text-base">
-</div>
-        <div>MEDIA / PR / SALES</div>
+        <div>MEDIA & PR / SALES</div>
       </div>
     </motion.div>
   </section>;
