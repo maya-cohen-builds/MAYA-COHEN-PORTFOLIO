@@ -50,6 +50,37 @@ const renderTextWithLinks = (text: string, links?: ProjectLink[]): React.ReactNo
   return <>{parts}</>;
 };
 
+const renderPressContent = (text: string, links?: ProjectLink[]): React.ReactNode => {
+  // Split on quoted blocks: find patterns like "quote" Attribution
+  const parts = text.split(/(?=")/);
+  const intro = text.split(/"/)[0];
+  const quoteRegex = /"([^"]+)"\s*(.+?)(?=\s*"|$)/gs;
+  
+  const result: React.ReactNode[] = [];
+  
+  // Get intro text (before first quote)
+  const introMatch = text.match(/^([\s\S]*?)(?=")/);
+  if (introMatch && introMatch[1].trim()) {
+    result.push(<span key="intro">{renderTextWithLinks(introMatch[1].trim(), links)}</span>);
+  }
+  
+  let match;
+  let i = 0;
+  while ((match = quoteRegex.exec(text)) !== null) {
+    const quoteText = match[1];
+    const attribution = match[2].trim();
+    result.push(
+      <div key={`quote-${i}`} className="mt-6">
+        <span>"{quoteText}"</span>
+        <div className="mt-2 italic opacity-60">{renderTextWithLinks(attribution, links)}</div>
+      </div>
+    );
+    i++;
+  }
+  
+  return <>{result}</>;
+};
+
 const ProjectDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
