@@ -208,7 +208,7 @@ export const projects: Project[] = [
   {
     id: "usc-marshall-gwib",
     brand: "USC Marshall GWIB",
-    title: "USC Marshall Graduate Women in Business",
+    title: "Graduate Women in Business",
     description: "VP of Marketing who led a full brand overhaul, social strategy, and 200% engagement growth for a USC Marshall student organization.",
     tag: "Campus",
     image: gwibCover,
