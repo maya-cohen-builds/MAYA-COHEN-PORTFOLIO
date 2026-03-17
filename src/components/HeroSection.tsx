@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroBg from "@/assets/hero-concert-graded.jpg";
+import heroBg from "@/assets/infosys-gallery-4.jpeg";
 
 const HeroSection = () => {
   const scrollToWork = () => {
