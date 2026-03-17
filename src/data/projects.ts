@@ -156,7 +156,7 @@ export const projects: Project[] = [
     role: "As VP of Marketing I led a full brand refresh from the ground up, redesigning the brand guidelines and logo from scratch. I owned social media strategy, content creation, posting, and reels production end to end. I created a spotlight campaign with original messaging and positioning collateral to showcase board members, developed decks for internal and external use, and mentored two members including an Associate VP and an undergraduate GWIB member. I also drove partnership growth and expanded the organization's social reach.",
     impact: "Grew social engagement and partnerships by 20%. Delivered a complete brand identity overhaul including a new logo that became official organization collateral. Mentored two emerging marketing professionals simultaneously while managing the full marketing function independently.",
     press: "USC Marshall Graduate Women in Business. USC Marshall School of Business, class of 2026.",
-    gallery: [gwibGallery1, gwibGallery2, gwibGallery3, gwibGallery4, gwibGallery5, gwibGallery6],
+    gallery: [gwibGallery1, gwibGallery2, gwibGallery3, gwibGallery4, gwibGallery5, gwibGallery6, gwibGallery7, gwibGallery8],
   },
   {
     id: "usc-elevate-summit",
