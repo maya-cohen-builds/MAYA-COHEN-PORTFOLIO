@@ -42,13 +42,14 @@ const AboutSection = () =>
     transition={{ duration: 0.8, delay: 0.1 }}>
     
       <h2 className="label-text mb-8">About</h2>
-      <p className="text-lg text-foreground leading-relaxed mb-8">Growing up in a family of engineers, I actually broke into Hollywood then naturally gravitated to the technology behind the scenes. From launching a cloud-native pipeline at DreamWorks to managing Emmy campaign press for HBO Barry to architecting the GTM motion behind a NYT bestselling memoir, my work lives at the intersection of enterprise technology and rich, memorable storytelling. USC Marshall MBA. Based in Los Angeles. Building the room where it happens.
+      <p className="text-lg text-foreground leading-relaxed mb-8">Growing up in a family of engineers, I actually broke into Hollywood then naturally gravitated to the technology behind the scenes. From launching a cloud-native pipeline at DreamWorks to managing Emmy campaign press for HBO Barry to architecting the GTM motion behind a NYT bestselling memoir, my work lives at the intersection of product launch and rich, memorable storytelling. USC Marshall MBA. Based in Los Angeles. Building the room where it happens.
 
     </p>
       <div className="divider mb-8" />
-      <div className="text-xs uppercase tracking-widest text-muted-foreground font-normal space-y-2">
-        <div>PARTNERSHIPS / ACTIVATIONS / ORGANIC SOCIAL</div>
-        <div className="text-base">MEDIA & PR / SALES</div>
+      <div className="grid grid-cols-2 gap-8 text-xs uppercase tracking-widest text-muted-foreground">
+        <div className="text-base">
+</div>
+        <div>MEDIA / PR / SALES</div>
       </div>
     </motion.div>
   </section>;
