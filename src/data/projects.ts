@@ -205,7 +205,7 @@ export const projects: Project[] = [
     role: "As Associate VP of Case Competitions for the USC Graduate Marketing Association, I produced the full competition experience end to end. I owned event logistics and production, recruited and coordinated judges from the marketing industry, recruited competing teams, and managed all marketing and promotions for the event to drive participation and visibility across the USC Marshall graduate community.",
     impact: "Successfully produced a branded case competition experience anchored around a 75th anniversary milestone for a nationally recognized consumer brand. Delivered a professional competition format that gave graduate marketers real exposure to senior industry judges while creating a branded activation moment for King's Hawaiian within the USC Marshall ecosystem.",
     press: "King's Hawaiian 75th Anniversary Marketing Case Competition. USC Graduate Marketing Association, USC Marshall School of Business.",
-    gallery: [khGallery1, khGallery2, khGallery3, khGallery4],
+    gallery: [khGallery1, khGallery2, khGallery3, khGallery4, khGallery5],
   },
 ];
 
