@@ -53,6 +53,13 @@ const renderTextWithLinks = (text: string, links?: ProjectLink[]): React.ReactNo
 const renderPressContent = (text: string, links?: ProjectLink[]): React.ReactNode => {
   const result: React.ReactNode[] = [];
   
+  // Check if text contains any quotes
+  const hasQuotes = text.includes('"');
+  
+  if (!hasQuotes) {
+    return <span>{renderTextWithLinks(text, links)}</span>;
+  }
+
   // Get intro text (before first quote)
   const introMatch = text.match(/^([\s\S]*?)(?=")/);
   if (introMatch && introMatch[1].trim()) {
