@@ -17,7 +17,7 @@ const ActivationCard = ({ project }: { project: Project }) => {
     >
       <div className="aspect-[16/9] overflow-hidden bg-muted mb-6 relative">
         <img
-          src={project.image}
+          src={project.cardImage || project.image}
           alt={project.title}
           className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
           loading="lazy"
