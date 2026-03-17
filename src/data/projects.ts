@@ -242,6 +242,7 @@ export const projects: Project[] = [
       { text: "SKIMS", url: "https://skims.com" },
       { text: "DRAFTED", url: "https://www.wearedrafted.co/about-us" },
       { text: "Lo & Sons", url: "https://www.loandsons.com/" },
+      { text: "Coca-Cola", url: "https://www.coca-cola.com/" },
     ],
   },
   {
