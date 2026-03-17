@@ -125,9 +125,10 @@ const ProjectDetail = () => {
         {/* Gallery */}
         <div className="mt-24">
           <h2 className="label-text mb-8">Gallery</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className={`grid gap-4 ${project.id === "pipex-virtual-launch" ? "grid-cols-1" : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"}`}>
             {project.gallery.map((img, i) => {
-              const isWide = project.id === "kings-hawaiian-case-competition" && i === project.gallery.length - 1;
+              const isKHWide = project.id === "kings-hawaiian-case-competition" && i === project.gallery.length - 1;
+              const isPipex = project.id === "pipex-virtual-launch";
               return (
                 <motion.div
                   key={i}
@@ -135,12 +136,12 @@ const ProjectDetail = () => {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className={`overflow-hidden bg-muted ${isWide ? "md:col-span-2 lg:col-span-3 aspect-video" : "aspect-square"}`}
+                  className={`overflow-hidden bg-muted ${isKHWide ? "md:col-span-2 lg:col-span-3 aspect-video" : isPipex ? "" : "aspect-square"}`}
                 >
                   <img
                     src={img}
                     alt={`${project.title} gallery ${i + 1}`}
-                    className={`w-full h-full ${isWide ? "object-contain bg-white" : "object-cover"}`}
+                    className={`w-full ${isKHWide || isPipex ? "object-contain bg-white" : "h-full object-cover"}`}
                     loading="lazy"
                   />
                 </motion.div>
