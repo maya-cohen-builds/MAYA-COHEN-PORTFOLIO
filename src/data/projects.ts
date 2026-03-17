@@ -65,6 +65,7 @@ import barryFinalSeason from "@/assets/barry-final-season.jpg";
 import barryEmmys75 from "@/assets/barry-emmys-75.jpg";
 import barryPeacockTheater from "@/assets/barry-peacock-theater.webp";
 import barryRichEisen from "@/assets/barry-rich-eisen.jpg";
+import barrySundayToday from "@/assets/barry-sunday-today.png";
 
 export type ProjectLink = {
   text: string;
