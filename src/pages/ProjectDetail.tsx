@@ -30,7 +30,7 @@ const renderPressContent = (text: string, links?: ProjectLink[]): React.ReactNod
 
     // The quote itself - italicized
     parts.push(
-      <em key={key++} className="not-italic italic">{match[1]}</em>
+      <em key={key++} className="italic">{match[1]}</em>
     );
 
     lastIndex = regex.lastIndex;
