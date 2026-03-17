@@ -156,12 +156,12 @@ const ProjectDetail = () => {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className={`overflow-hidden bg-muted ${isKHWide ? "md:col-span-2 lg:col-span-3 aspect-video" : isPipex ? "" : "aspect-square"}`}
+                  className={`overflow-hidden bg-muted ${isKHWide ? "md:col-span-2 lg:col-span-3 aspect-video" : isBecoming ? "aspect-video" : "aspect-square"}`}
                 >
                   <img
                     src={img}
                     alt={`${project.title} gallery ${i + 1}`}
-                    className={`w-full ${isKHWide || isPipex ? "object-contain bg-white" : "h-full object-cover"}`}
+                    className={`w-full h-full ${isKHWide || isBecoming ? "object-contain bg-muted" : "object-cover"}`}
                     loading="lazy"
                   />
                 </motion.div>
