@@ -116,7 +116,7 @@ export const projects: Project[] = [
     role: "As MBA Intern directly supporting the Global Head of Brand at Infosys, I contributed to the anniversary activation across multiple workstreams. I created live product demos showcasing Azure-native AI agent capabilities, developed sales enablement decks used across the event, presented to internal audiences spanning associates through C-suite, and wrote live keynote content for the main stage presentation at the celebration.",
     impact: "Contributed to a flagship internal brand activation marking a 25-year program milestone at a Fortune 500 enterprise technology company. Keynote content and demo materials reached the full internal InStep audience across seniority levels.",
     press: "Infosys InStep 25th Anniversary, 2025. Infosys is a global enterprise technology leader with 300,000+ employees.",
-    gallery: [infosysGallery1, infosysCover, infosysGallery3, infosysGallery4, infosysGallery5, infosysGallery6],
+    gallery: [infosysGallery1, infosysCover, infosysGallery3, infosysGallery4, infosysGallery6, infosysGallery5],
   },
   {
     id: "bizhacks-2025",
