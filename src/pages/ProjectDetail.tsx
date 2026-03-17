@@ -130,7 +130,8 @@ const ProjectDetail = () => {
               const isKHWide = project.id === "kings-hawaiian-case-competition" && i === project.gallery.length - 1;
               const isPipex = project.id === "pipex-virtual-launch";
               const isGWIB = project.id === "usc-marshall-gwib";
-              return isGWIB ? (
+              const isMasonry = isGWIB || isPipex;
+              return isMasonry ? (
                 <motion.div
                   key={i}
                   initial={{ opacity: 0 }}
