@@ -47,6 +47,11 @@ import gwibGallery5 from "@/assets/gwib-gallery-5.png";
 import gwibGallery6 from "@/assets/gwib-gallery-6.png";
 import gwibCover from "@/assets/gwib-cover.jpeg";
 import gwibGallery8 from "@/assets/gwib-gallery-8.png";
+import henryTourBanner from "@/assets/henry-tour-banner.gif";
+import henryHelloSign from "@/assets/henry-hello-sign.png";
+import henrySethMeyers from "@/assets/henry-seth-meyers.png";
+import henryFanexpo from "@/assets/henry-fanexpo.webp";
+import henrySeatedBook from "@/assets/henry-seated-book.jpg";
 
 export type ProjectLink = {
   text: string;
@@ -116,12 +121,13 @@ export const projects: Project[] = [
     title: "Being Henry: National Book Tour GTM",
     description: "Chief of Staff behind the national GTM launch of a NYT Bestselling memoir across 15+ US markets.",
     tag: "Live Events",
-    image: card1,
+    image: henryTourBanner,
+    cardImage: henryTourBanner,
     context: "In 2023, Emmy Award-winning actor Henry Winkler launched his memoir \"Being Henry: The Fonz...and Beyond\" through Celadon Books as a national hardcover tour, followed by a paperback tour in 2024. The campaign required coordinating a multi-city live event series across major US markets, managing a high-profile talent with significant public and media demand, and translating a publishing GTM strategy into flawless on-the-ground execution.",
     role: "As Chief of Staff to Henry Winkler, I served as the operational and creative lead behind the tour's execution. I owned end-to-end logistics and travel coordination across all tour markets, managed talent scheduling and green room to stage management, led media prep and developed talking points used across press appearances, coordinated PR outreach and fan convention integrations, produced social content including on-camera video announcements for Winkler's speaker series, and contributed copyediting and ghostwriting to supporting materials for the book itself.",
     impact: "The tour spanned 15+ cities across the US with multiple sold-out stops including Cambridge MA, Long Island NY, and Naperville IL. The memoir debuted as a New York Times Bestseller. The paperback release generated a second full tour leg in 2024, anchored by a stop at the Smithsonian Museum of Natural History in Washington DC.",
     press: "\"Being Henry\" New York Times Bestseller, Celadon Books 2023. Tour venues included The Town Hall NYC, Harvard Bookstore, and the Smithsonian Institution.",
-    gallery: [card1, card3, card6],
+    gallery: [henryHelloSign, henrySethMeyers, henryFanexpo, henrySeatedBook],
   },
   {
     id: "hbo-barry-emmys",

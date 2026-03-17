@@ -125,12 +125,13 @@ const ProjectDetail = () => {
         {/* Gallery */}
         <div className="mt-24">
           <h2 className="label-text mb-8">Gallery</h2>
-          <div className={project.id === "usc-marshall-gwib" || project.id === "pipex-virtual-launch" ? "columns-1 md:columns-2 lg:columns-3" : `grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3`}>
+          <div className={project.id === "usc-marshall-gwib" || project.id === "pipex-virtual-launch" || project.id === "being-henry-book-tour" ? "columns-1 md:columns-2 lg:columns-3" : `grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3`}>
             {project.gallery.map((img, i) => {
               const isKHWide = project.id === "kings-hawaiian-case-competition" && i === project.gallery.length - 1;
               const isPipex = project.id === "pipex-virtual-launch";
               const isGWIB = project.id === "usc-marshall-gwib";
-              const isMasonry = isGWIB || isPipex;
+              const isHenry = project.id === "being-henry-book-tour";
+              const isMasonry = isGWIB || isPipex || isHenry;
               return isMasonry ? (
                 <motion.div
                   key={i}
