@@ -11,6 +11,7 @@ import pipexRoadmap from "@/assets/pipex-roadmap.png";
 import pipexWorkflow from "@/assets/pipex-workflow.png";
 import pipexTrollsEmail from "@/assets/pipex-trolls-email.png";
 import pipexLaunchLetter from "@/assets/pipex-launch-letter.png";
+import pipexHappyHour from "@/assets/pipex-happy-hour.png";
 import khGallery1 from "@/assets/kh-gallery-1.png";
 import khGallery2 from "@/assets/kh-gallery-2.jpeg";
 import khGallery3 from "@/assets/kh-gallery-3.jpg";
