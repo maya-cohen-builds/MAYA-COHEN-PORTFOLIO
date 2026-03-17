@@ -127,7 +127,7 @@ const ProjectDetail = () => {
           <h2 className="label-text mb-8">Gallery</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {project.gallery.map((img, i) => {
-              const isFirstWide = i === 0 && project.id === "kings-hawaiian-case-competition";
+              const isWide = project.id === "kings-hawaiian-case-competition" && i === project.gallery.length - 1;
               return (
                 <motion.div
                   key={i}
