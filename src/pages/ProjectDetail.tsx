@@ -135,7 +135,7 @@ const ProjectDetail = () => {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className={`overflow-hidden bg-muted ${isFirstWide ? "md:col-span-2 lg:col-span-3 aspect-video" : "aspect-square"}`}
+                  className={`overflow-hidden bg-muted ${isWide ? "md:col-span-2 lg:col-span-3 aspect-video" : "aspect-square"}`}
                 >
                   <img
                     src={img}
