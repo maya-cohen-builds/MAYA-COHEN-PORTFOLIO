@@ -166,9 +166,9 @@ const ProjectDetail = () => {
         {/* Gallery */}
         <div className="mt-24">
           <h2 className="label-text mb-8">Gallery</h2>
-          <div className={project.id === "usc-marshall-gwib" || project.id === "pipex-virtual-launch" || project.id === "being-henry-book-tour" || project.id === "hbo-barry-emmys" || project.id === "executive-brand-activations" ? "columns-1 md:columns-2 lg:columns-3" : project.id === "becoming-memoir-launch" ? "grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" : `grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3`}>
+          <div className={project.id === "kings-hawaiian-case-competition" ? "grid gap-4 grid-cols-2 md:grid-cols-4" : project.id === "usc-marshall-gwib" || project.id === "pipex-virtual-launch" || project.id === "being-henry-book-tour" || project.id === "hbo-barry-emmys" || project.id === "executive-brand-activations" ? "columns-1 md:columns-2 lg:columns-3" : project.id === "becoming-memoir-launch" ? "grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" : `grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3`}>
             {project.gallery.map((img, i) => {
-              const isKHWide = project.id === "kings-hawaiian-case-competition" && i === project.gallery.length - 1;
+              const isKH = project.id === "kings-hawaiian-case-competition";
               const isElevateMug = project.id === "usc-elevate-summit" && i === 2;
               const isPipex = project.id === "pipex-virtual-launch";
               const isGWIB = project.id === "usc-marshall-gwib";
@@ -201,12 +201,12 @@ const ProjectDetail = () => {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className={`overflow-hidden bg-muted ${isKHWide ? "md:col-span-2 lg:col-span-3 aspect-video" : isBecoming || isHumanitas ? "aspect-video" : "aspect-square"}`}
+                  className={`overflow-hidden bg-muted ${isKH ? "aspect-[4/3]" : isBecoming || isHumanitas ? "aspect-video" : "aspect-square"}`}
                 >
                   <img
                     src={img}
                     alt={`${project.title} gallery ${i + 1}`}
-                    className={`w-full h-full ${isKHWide || isBecoming || isHumanitas ? "object-contain bg-muted" : "object-cover"}`}
+                    className={`w-full h-full ${isBecoming || isHumanitas ? "object-contain bg-muted" : "object-cover"}`}
                     style={isElevateMug ? { objectPosition: 'center center', transform: 'scale(1.4)' } : undefined}
                     loading="lazy"
                   />
