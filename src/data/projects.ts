@@ -34,6 +34,8 @@ import becomingGlamourWoty from "@/assets/becoming-glamour-woty.jpg";
 import becomingBookDisplay from "@/assets/becoming-book-display.jpg";
 import becomingTimesup from "@/assets/becoming-timesup.webp";
 import becomingWomenIllustration from "@/assets/becoming-women-illustration.jpeg";
+import becomingTourDates from "@/assets/becoming-tour-dates.jpg";
+import becomingGlamourTracee from "@/assets/becoming-glamour-tracee.jpg";
 import infosysGallery1 from "@/assets/infosys-gallery-1.jpeg";
 import infosysGallery3 from "@/assets/infosys-gallery-3.jpeg";
 import infosysGallery4 from "@/assets/infosys-gallery-4.jpeg";
@@ -93,7 +95,7 @@ export const projects: Project[] = [
     role: "As a freelance creative strategist working directly with Tracee Ellis Ross, I supported her across multiple engagements during this period. I contributed copyediting, messaging and positioning input, and strategy advising on her Glamour Women of the Year speech. For the Michelle Obama Becoming press work specifically, I built messaging and positioning frameworks by selecting and organizing key content from the memoir, synthesizing those themes for Tracee, and helping structure talking points and media training materials she used in her press appearances including her NYT interview with Obama. Our working sessions took place across Los Angeles, including on the set of Black-ish and at Soho House.",
     impact: "Contributed to the press infrastructure behind one of the most culturally significant book launches of the decade. Tracee Ellis Ross's Glamour Women of the Year speech went viral. Her NYT interview with Michelle Obama became one of the defining press moments of the Becoming campaign.",
     press: "Michelle Obama, Becoming, Crown Publishing 2018. Tracee Ellis Ross, Glamour Women of the Year. New York Times Books interview, November 2018.",
-    gallery: [becomingGlamourStage, becomingGlamourWoty, becomingBookDisplay, becomingTimesup, becomingWomenIllustration],
+    gallery: [becomingGlamourTracee, becomingGlamourWoty, becomingBookDisplay, becomingTimesup, becomingWomenIllustration, becomingTourDates],
   },
   {
     id: "being-henry-book-tour",
