@@ -46,7 +46,7 @@ const AboutSection = () =>
 
     </p>
       <div className="divider mb-8" />
-      <div className="text-xs uppercase tracking-widest text-muted-foreground">
+      <div className="text-xs uppercase tracking-widest text-muted-foreground font-normal space-y-2">
         <div>PARTNERSHIPS / ACTIVATIONS / ORGANIC SOCIAL</div>
         <div>MEDIA & PR / SALES</div>
       </div>
