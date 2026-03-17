@@ -70,7 +70,7 @@ const ProjectDetail = () => {
         <img
           src={project.image}
           alt={project.title}
-          className={`w-full h-full object-cover ${project.id === "usc-marshall-gwib" ? "scale-125 object-[center_40%]" : ""}`}
+          className={`w-full h-full object-cover ${project.id === "usc-marshall-gwib" ? "object-center" : ""}`}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
         <button
