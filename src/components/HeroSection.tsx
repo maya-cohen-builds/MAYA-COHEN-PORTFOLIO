@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroBg from "@/assets/hero-concert-graded.jpg";
+import heroBg from "@/assets/infosys-gallery-4.jpeg";
 
 const HeroSection = () => {
   const scrollToWork = () => {
@@ -9,9 +9,9 @@ const HeroSection = () => {
   return (
     <section className="relative h-svh w-full flex flex-col justify-end p-8 md:p-16 overflow-hidden bg-black">
       <div className="absolute inset-0 z-0">
-        <img src={heroBg} alt="" className="h-full w-full object-cover object-[center_25%] scale-110" />
+        <img src={heroBg} alt="" className="h-full w-full object-cover object-center" />
       </div>
-      <div className="absolute inset-0 z-[1] bg-black/[0.65]" />
+      <div className="absolute inset-0 z-[1] bg-black/[0.75]" />
       <div className="absolute inset-0 z-[2] bg-gradient-to-t from-black via-black/50 to-transparent" />
 
       <div className="relative z-10 max-w-5xl">
