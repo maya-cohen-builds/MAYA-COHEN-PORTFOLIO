@@ -163,7 +163,7 @@ const ProjectDetail = () => {
                   <img
                     src={img}
                     alt={`${project.title} gallery ${i + 1}`}
-                    className={`w-full h-full ${isKHWide || isBecoming ? "object-contain bg-muted" : "object-cover"}`}
+                    className={`w-full h-full ${isKHWide || isBecoming || isHumanitas ? "object-contain bg-muted" : "object-cover"}`}
                     loading="lazy"
                   />
                 </motion.div>
