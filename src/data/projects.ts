@@ -47,6 +47,11 @@ import gwibGallery5 from "@/assets/gwib-gallery-5.png";
 import gwibGallery6 from "@/assets/gwib-gallery-6.png";
 import gwibCover from "@/assets/gwib-cover.jpeg";
 import gwibGallery8 from "@/assets/gwib-gallery-8.png";
+import henryTourBanner from "@/assets/henry-tour-banner.gif";
+import henryHelloSign from "@/assets/henry-hello-sign.png";
+import henrySethMeyers from "@/assets/henry-seth-meyers.png";
+import henryFanexpo from "@/assets/henry-fanexpo.webp";
+import henrySeatedBook from "@/assets/henry-seated-book.jpg";
 
 export type ProjectLink = {
   text: string;
