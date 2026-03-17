@@ -51,11 +51,6 @@ const renderTextWithLinks = (text: string, links?: ProjectLink[]): React.ReactNo
 };
 
 const renderPressContent = (text: string, links?: ProjectLink[]): React.ReactNode => {
-  // Split on quoted blocks: find patterns like "quote" Attribution
-  const parts = text.split(/(?=")/);
-  const intro = text.split(/"/)[0];
-  const quoteRegex = /"([^"]+)"\s*(.+?)(?=\s*"|$)/gs;
-  
   const result: React.ReactNode[] = [];
   
   // Get intro text (before first quote)
@@ -64,15 +59,17 @@ const renderPressContent = (text: string, links?: ProjectLink[]): React.ReactNod
     result.push(<span key="intro">{renderTextWithLinks(introMatch[1].trim(), links)}</span>);
   }
   
+  // Match "quote" attribution pattern
+  const quoteRegex = /"([^"]+)"\s*(.+?)(?=\s*"|$)/gs;
   let match;
   let i = 0;
   while ((match = quoteRegex.exec(text)) !== null) {
     const quoteText = match[1];
-    const attribution = match[2].trim();
+    const attribution = match[2].trim().replace(/\.$/, '');
     result.push(
       <div key={`quote-${i}`} className="mt-6">
         <span>"{quoteText}"</span>
-        <div className="mt-2 italic opacity-60">{renderTextWithLinks(attribution, links)}</div>
+        <div className="mt-2 italic opacity-60">— {renderTextWithLinks(attribution, links)}</div>
       </div>
     );
     i++;
