@@ -8,6 +8,7 @@ import khCover from "@/assets/kh-cover.jpeg";
 import pipexPersonas from "@/assets/pipex-personas.png";
 import pipexTimeline from "@/assets/pipex-timeline.png";
 import pipexRoadmap from "@/assets/pipex-roadmap.png";
+import pipexWorkflow from "@/assets/pipex-workflow.png";
 import pipexTrollsEmail from "@/assets/pipex-trolls-email.png";
 import pipexLaunchLetter from "@/assets/pipex-launch-letter.png";
 import khGallery1 from "@/assets/kh-gallery-1.png";
