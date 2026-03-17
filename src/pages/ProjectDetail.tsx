@@ -134,7 +134,7 @@ const ProjectDetail = () => {
               const isBarry = project.id === "hbo-barry-emmys";
               const isBecoming = project.id === "becoming-memoir-launch";
               const isHumanitas = project.id === "humanitas-prize-42";
-              const isMasonry = isGWIB || isPipex || isHenry || isBarry || isHumanitas;
+              const isMasonry = isGWIB || isPipex || isHenry || isBarry;
               return isMasonry ? (
                 <motion.div
                   key={i}
