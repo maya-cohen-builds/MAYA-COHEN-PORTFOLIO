@@ -162,6 +162,7 @@ const ProjectDetail = () => {
           <div className={project.id === "usc-marshall-gwib" || project.id === "pipex-virtual-launch" || project.id === "being-henry-book-tour" || project.id === "hbo-barry-emmys" || project.id === "executive-brand-activations" ? "columns-1 md:columns-2 lg:columns-3" : project.id === "becoming-memoir-launch" ? "grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" : `grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3`}>
             {project.gallery.map((img, i) => {
               const isKHWide = project.id === "kings-hawaiian-case-competition" && i === project.gallery.length - 1;
+              const isElevateMug = project.id === "usc-elevate-summit" && i === 2;
               const isPipex = project.id === "pipex-virtual-launch";
               const isGWIB = project.id === "usc-marshall-gwib";
               const isHenry = project.id === "being-henry-book-tour";
