@@ -125,7 +125,7 @@ const ProjectDetail = () => {
         {/* Gallery */}
         <div className="mt-24">
           <h2 className="label-text mb-8">Gallery</h2>
-          <div className={project.id === "usc-marshall-gwib" || project.id === "pipex-virtual-launch" || project.id === "being-henry-book-tour" || project.id === "hbo-barry-emmys" ? "columns-1 md:columns-2 lg:columns-3" : project.id === "becoming-memoir-launch" ? "grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" : `grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3`}>
+          <div className={project.id === "usc-marshall-gwib" || project.id === "pipex-virtual-launch" || project.id === "being-henry-book-tour" || project.id === "hbo-barry-emmys" || project.id === "humanitas-prize-42" ? "columns-1 md:columns-2 lg:columns-3" : project.id === "becoming-memoir-launch" ? "grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" : `grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3`}>
             {project.gallery.map((img, i) => {
               const isKHWide = project.id === "kings-hawaiian-case-competition" && i === project.gallery.length - 1;
               const isPipex = project.id === "pipex-virtual-launch";
@@ -133,7 +133,8 @@ const ProjectDetail = () => {
               const isHenry = project.id === "being-henry-book-tour";
               const isBarry = project.id === "hbo-barry-emmys";
               const isBecoming = project.id === "becoming-memoir-launch";
-              const isMasonry = isGWIB || isPipex || isHenry || isBarry;
+              const isHumanitas = project.id === "humanitas-prize-42";
+              const isMasonry = isGWIB || isPipex || isHenry || isBarry || isHumanitas;
               return isMasonry ? (
                 <motion.div
                   key={i}
