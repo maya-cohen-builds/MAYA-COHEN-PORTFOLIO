@@ -10,12 +10,12 @@ const HeroGeometricBackground = () => {
         }}
       />
 
-      {/* Geometric SVG overlay at ~12% opacity in amber-gold */}
+      {/* Geometric SVG overlay at ~45% opacity in amber-gold */}
       <svg
         className="absolute inset-0 w-full h-full"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMidYMid slice"
-        style={{ opacity: 0.12 }}
+        style={{ opacity: 0.45 }}
       >
         <defs>
           <pattern
