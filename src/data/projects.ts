@@ -90,7 +90,7 @@ export const projects: Project[] = [
     role: "As Production Coordinator on the PipeX launch team, I co-led two flagship virtual brand activations tied directly to the pipeline's rollout. The first was a milestone launch celebration marking Trolls' migration onto PipeX, the second a completed film demo and celebration showcasing the finished production running fully on the new system. Across both events I owned the run of show, end-to-end logistics, platform production, and created original media content to support the programming. Audiences ranged from 50 to 150 studio staff and stakeholders per event.",
     impact: "Successfully activated internal adoption and enthusiasm around a complex technical product launch during one of the most challenging periods for live engagement in the industry. The activations served as proof of concept that PipeX could support not just production workflows but the cultural moments that matter to a creative studio.",
     press: "PipeX cloud-native pipeline, DreamWorks Animation. Featured IP: Trolls franchise.",
-    gallery: [pipexPersonas, pipexTimeline, pipexRoadmap, pipexTrollsEmail, pipexLaunchLetter],
+    gallery: [pipexWorkflow, pipexPersonas, pipexTimeline, pipexRoadmap, pipexTrollsEmail, pipexLaunchLetter],
   },
   {
     id: "executive-brand-activations",
