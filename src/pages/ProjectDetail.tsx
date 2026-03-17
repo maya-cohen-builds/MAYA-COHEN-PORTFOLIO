@@ -50,6 +50,34 @@ const renderTextWithLinks = (text: string, links?: ProjectLink[]): React.ReactNo
   return <>{parts}</>;
 };
 
+const renderPressContent = (text: string, links?: ProjectLink[]): React.ReactNode => {
+  const result: React.ReactNode[] = [];
+  
+  // Get intro text (before first quote)
+  const introMatch = text.match(/^([\s\S]*?)(?=")/);
+  if (introMatch && introMatch[1].trim()) {
+    result.push(<span key="intro">{renderTextWithLinks(introMatch[1].trim(), links)}</span>);
+  }
+  
+  // Match "quote" attribution pattern
+  const quoteRegex = /"([^"]+)"\s*(.+?)(?=\s*"|$)/gs;
+  let match;
+  let i = 0;
+  while ((match = quoteRegex.exec(text)) !== null) {
+    const quoteText = match[1];
+    const attribution = match[2].trim().replace(/\.$/, '');
+    result.push(
+      <div key={`quote-${i}`} className="mt-6">
+        <span>"{quoteText}"</span>
+        <div className="mt-2 italic opacity-60">— {renderTextWithLinks(attribution, links)}</div>
+      </div>
+    );
+    i++;
+  }
+  
+  return <>{result}</>;
+};
+
 const ProjectDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -115,9 +143,15 @@ const ProjectDetail = () => {
               className="border-t border-border pt-8"
             >
               <h2 className="label-text mb-6">{section.label}</h2>
-              <p className="text-lg text-foreground/80 leading-relaxed max-w-3xl">
-                {renderTextWithLinks(section.content, project.links)}
-              </p>
+              {section.label === "Press & Recognition" ? (
+                <div className="text-lg text-foreground/80 leading-relaxed max-w-3xl whitespace-pre-line">
+                  {renderPressContent(section.content, project.links)}
+                </div>
+              ) : (
+                <p className="text-lg text-foreground/80 leading-relaxed max-w-3xl">
+                  {renderTextWithLinks(section.content, project.links)}
+                </p>
+              )}
             </motion.div>
           ))}
         </div>
