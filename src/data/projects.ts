@@ -61,6 +61,10 @@ import henrySethMeyers from "@/assets/henry-seth-meyers.png";
 import henryFanexpo from "@/assets/henry-fanexpo.webp";
 import henrySeatedBook from "@/assets/henry-seated-book.jpg";
 import henryHodaJenna from "@/assets/henry-hoda-jenna.png";
+import barryFinalSeason from "@/assets/barry-final-season.jpg";
+import barryEmmys75 from "@/assets/barry-emmys-75.jpg";
+import barryPeacockTheater from "@/assets/barry-peacock-theater.webp";
+import barryRichEisen from "@/assets/barry-rich-eisen.jpg";
 
 export type ProjectLink = {
   text: string;
