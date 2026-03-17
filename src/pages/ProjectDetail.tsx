@@ -140,7 +140,7 @@ const ProjectDetail = () => {
                   <img
                     src={img}
                     alt={`${project.title} gallery ${i + 1}`}
-                    className={`w-full h-full ${isFirstWide ? "object-contain bg-white" : "object-cover"}`}
+                    className={`w-full h-full ${isWide ? "object-contain bg-white" : "object-cover"}`}
                     loading="lazy"
                   />
                 </motion.div>
