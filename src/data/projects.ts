@@ -65,6 +65,7 @@ import barryFinalSeason from "@/assets/barry-final-season.jpg";
 import barryEmmys75 from "@/assets/barry-emmys-75.jpg";
 import barryPeacockTheater from "@/assets/barry-peacock-theater.webp";
 import barryRichEisen from "@/assets/barry-rich-eisen.jpg";
+import barrySundayToday from "@/assets/barry-sunday-today.png";
 
 export type ProjectLink = {
   text: string;
@@ -126,7 +127,7 @@ export const projects: Project[] = [
     role: "As Chief of Staff to Henry Winkler, I supported his full Barry Season 4 press and Emmy Awards campaign across all four tour formats. I managed scheduling and logistics across primetime, syndicated, podcast, and speaker series appearances, coordinated press and PR outreach, developed media training materials and talking points for Winkler's on-camera and on-stage appearances, and created social content supporting the campaign across platforms.",
     impact: "Barry Season 4 received 11 Emmy nominations at the 75th Annual Emmy Awards including Outstanding Comedy Series and an individual nomination for Henry Winkler for Outstanding Supporting Actor in a Comedy Series. The season successfully closed out one of HBO's most critically acclaimed series with a press campaign that spanned every major media format simultaneously.",
     press: "HBO Barry Season 4. 75th Annual Emmy Awards, 11 nominations including Outstanding Comedy Series. Henry Winkler, nominated Outstanding Supporting Actor in a Comedy Series.",
-    gallery: [barryEmmys75, barryPeacockTheater, barryRichEisen],
+    gallery: [barryEmmys75, barryPeacockTheater, barryRichEisen, barrySundayToday],
   },
   {
     id: "pipex-virtual-launch",
