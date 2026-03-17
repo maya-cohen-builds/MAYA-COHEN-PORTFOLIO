@@ -10,6 +10,7 @@ import khGallery2 from "@/assets/kh-gallery-2.jpeg";
 import khGallery3 from "@/assets/kh-gallery-3.jpg";
 import khGallery4 from "@/assets/kh-gallery-4.png";
 import khGallery5 from "@/assets/kh-gallery-5.jpeg";
+import khCaseComp from "@/assets/kh-case-comp.png";
 import bizhacksCover from "@/assets/bizhacks-cover.jpg";
 import bizhacksGallery1 from "@/assets/bizhacks-gallery-1.jpg";
 import bizhacksGallery2 from "@/assets/bizhacks-gallery-2.jpg";
