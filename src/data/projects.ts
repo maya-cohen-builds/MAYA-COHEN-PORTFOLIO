@@ -100,19 +100,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "executive-brand-activations",
-    brand: "The Shade Room",
-    title: "Executive Brand Activations Across the Conference Circuit",
-    description: "Chief of Staff managing CEO appearances across SXSW, TechCrunch Disrupt, AfroTech, Beautycon, and ComplexCon.",
-    tag: "Live Events",
-    image: tsrComplexconFloor,
-    context: "The Shade Room is one of the most influential multimedia brands in Black culture, reaching 40 million people weekly with 1.5 billion impressions, described by Refinery29 as the Oprah of our generation. As the brand expanded its executive presence across the tech and culture conference circuit, its CEO required a strategic operational partner to manage high-stakes appearances across some of the most competitive stages in the industry.",
-    role: "As Chief of Staff to the CEO of The Shade Room, I coordinated executive appearances across a portfolio of major tech and culture conventions including SXSW, TechCrunch Disrupt, AfroTech, Beautycon, and ComplexCon. I owned end-to-end vendor coordination and event logistics for each appearance, and contributed to messaging and positioning work including talking points developed for the CEO's on-stage presence. Each activation required translating the TSR brand voice into a professional conference context while maintaining the cultural authenticity the brand is known for.",
-    impact: "Successfully managed a multi-event executive activation calendar spanning tech, media, and culture verticals simultaneously. Supported the CEO's visibility across both the mainstream tech conference circuit and culturally specific platforms, reinforcing The Shade Room's positioning as a serious media business operating at eight-figure revenue scale, not just a social media account.",
-    press: "The Shade Room, 28M+ Instagram followers, 40 million weekly reach, 1.5 billion weekly impressions. Named the TMZ of Instagram by the New York Times. Eight-figure annual revenue per investor disclosure. Second most popular publisher on Instagram by likes and comments. Founder Angie Nwandu named to Campaign's 2023 Inspiring Women list. Conferences include SXSW, TechCrunch Disrupt, AfroTech, Beautycon, and ComplexCon.",
-    gallery: [tsrLogo, tsrSxsw, tsrTechcrunch, tsrAfrotech, tsrBeautycon, tsrComplexconLogo],
-  },
-  {
     id: "pipex-virtual-launch",
     brand: "DreamWorks Animation",
     title: "PipeX Virtual Launch Activations",
@@ -180,6 +167,19 @@ export const projects: Project[] = [
     press: "HBO Barry Season 4, 2023. 75th Annual Emmy Awards, 11 nominations including Outstanding Comedy Series and Outstanding Supporting Actor in a Comedy Series for Henry Winkler. Season 4 averaged 3.4 million viewers per episode across platforms, per Warner Bros. Discovery and Nielsen. Season 4 premiere viewership up 10% over Season 3 premiere at same point in time. Barry accumulated 9 Emmy wins across its first three seasons prior to its final run. Rich Eisen Show, Sunday Today with Willie Geist, multi-platform press campaign spanning primetime, syndicated, podcast, and speaker series formats.",
     links: [{ text: "Access Hollywood", url: "https://www.yahoo.com/entertainment/henry-winkler-reveals-bill-hader-184535604.html" }],
     gallery: [barryEmmys75, barryPeacockTheater, barryRichEisen, barrySundayToday],
+  },
+  {
+    id: "executive-brand-activations",
+    brand: "The Shade Room",
+    title: "Executive Brand Activations Across the Conference Circuit",
+    description: "Chief of Staff managing CEO appearances across SXSW, TechCrunch Disrupt, AfroTech, Beautycon, and ComplexCon.",
+    tag: "Live Events",
+    image: tsrComplexconFloor,
+    context: "The Shade Room is one of the most influential multimedia brands in Black culture, reaching 40 million people weekly with 1.5 billion impressions, described by Refinery29 as the Oprah of our generation. As the brand expanded its executive presence across the tech and culture conference circuit, its CEO required a strategic operational partner to manage high-stakes appearances across some of the most competitive stages in the industry.",
+    role: "As Chief of Staff to the CEO of The Shade Room, I coordinated executive appearances across a portfolio of major tech and culture conventions including SXSW, TechCrunch Disrupt, AfroTech, Beautycon, and ComplexCon. I owned end-to-end vendor coordination and event logistics for each appearance, and contributed to messaging and positioning work including talking points developed for the CEO's on-stage presence. Each activation required translating the TSR brand voice into a professional conference context while maintaining the cultural authenticity the brand is known for.",
+    impact: "Successfully managed a multi-event executive activation calendar spanning tech, media, and culture verticals simultaneously. Supported the CEO's visibility across both the mainstream tech conference circuit and culturally specific platforms, reinforcing The Shade Room's positioning as a serious media business operating at eight-figure revenue scale, not just a social media account.",
+    press: "The Shade Room, 28M+ Instagram followers, 40 million weekly reach, 1.5 billion weekly impressions. Named the TMZ of Instagram by the New York Times. Eight-figure annual revenue per investor disclosure. Second most popular publisher on Instagram by likes and comments. Founder Angie Nwandu named to Campaign's 2023 Inspiring Women list. Conferences include SXSW, TechCrunch Disrupt, AfroTech, Beautycon, and ComplexCon.",
+    gallery: [tsrLogo, tsrSxsw, tsrTechcrunch, tsrAfrotech, tsrBeautycon, tsrComplexconLogo],
   },
   {
     id: "becoming-memoir-launch",
