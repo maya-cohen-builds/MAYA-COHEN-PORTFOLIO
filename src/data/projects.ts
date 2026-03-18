@@ -145,7 +145,7 @@ export const projects: Project[] = [
     id: "bizhacks-2025",
     brand: "Infosys InStep",
     title: "Infosys InStep BizHacks 2025",
-    description: "Pressure tested a independent Azure AI agent project to a competitive internal hackathon while mentoring undergraduate engineers through their first build.",
+    description: "Pressure tested Azure-native AI agents to automate marketing workflows during a competitive hackathon while mentoring undergraduate engineers through their first build.",
     tag: "Enterprise",
     image: bizhacksCover,
     context: "The Infosys InStep BizHacks 2025 was an internal hackathon challenging undergraduate software engineers to build and deploy AI-powered business solutions. For many participants it was their first hackathon experience, requiring both technical guidance and strategic marketing mentorship to bring their products to life.",
