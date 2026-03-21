@@ -229,7 +229,7 @@ export const projects: Project[] = [
     id: "usc-marshall-gwib",
     brand: "USC Marshall GWIB",
     title: "Graduate Women in Business",
-    description: "VP of Marketing who led a full brand overhaul, social strategy, and 200% engagement growth for a USC Marshall student organization.",
+    description: "VP of Marketing who led a full brand overhaul, social strategy, and 200% engagement growth for a USC Marshall graduate organization.",
     tag: "Campus",
     image: gwibCover,
     context: "Graduate Women in Business at USC Marshall is a student-led organization serving the Marshall MBA community with a focus on professional development, community building, and gender equity in business. As the organization grew its presence and partnerships, it needed a complete brand overhaul and a modern social media strategy to match its ambitions.",
