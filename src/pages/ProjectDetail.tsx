@@ -135,12 +135,12 @@ const ProjectDetail = () => {
 
         {/* Sections */}
         <div className="space-y-16">
-          {[
+          {(project.sections || [
             { label: "Context", content: project.context },
             { label: "My Role", content: project.role },
             { label: "Impact", content: project.impact },
             ...(project.press ? [{ label: "Press & Recognition", content: project.press }] : []),
-          ].map((section) => (
+          ]).map((section) => (
             <motion.div
               key={section.label}
               initial={{ opacity: 0, y: 16 }}
@@ -150,14 +150,26 @@ const ProjectDetail = () => {
               className="border-t border-border pt-8"
             >
               <h2 className="label-text mb-6">{section.label}</h2>
-              {section.label === "Press & Recognition" ? (
-                <div className="text-lg text-foreground/80 leading-relaxed max-w-3xl whitespace-pre-line">
-                  {renderPressContent(section.content, project.links)}
-                </div>
-              ) : (
-                <p className="text-lg text-foreground/80 leading-relaxed max-w-3xl">
-                  {renderTextWithLinks(section.content, project.links)}
-                </p>
+              {section.content && (
+                section.label === "Press & Recognition" ? (
+                  <div className="text-lg text-foreground/80 leading-relaxed max-w-3xl whitespace-pre-line">
+                    {renderPressContent(section.content, project.links)}
+                  </div>
+                ) : (
+                  <p className="text-lg text-foreground/80 leading-relaxed max-w-3xl">
+                    {renderTextWithLinks(section.content, project.links)}
+                  </p>
+                )
+              )}
+              {section.items && section.items.length > 0 && (
+                <ul className="space-y-4 max-w-3xl mt-4">
+                  {section.items.map((item, idx) => (
+                    <li key={idx} className="text-lg text-foreground/80 leading-relaxed flex gap-3">
+                      <span className="text-primary mt-1.5 shrink-0">•</span>
+                      <span>{renderTextWithLinks(item, project.links)}</span>
+                    </li>
+                  ))}
+                </ul>
               )}
             </motion.div>
           ))}
