@@ -82,6 +82,12 @@ export type ProjectLink = {
   url: string;
 };
 
+export type ProjectSection = {
+  label: string;
+  content: string;
+  items?: string[];
+};
+
 export type Project = {
   id: string;
   brand: string;
@@ -96,6 +102,7 @@ export type Project = {
   press?: string;
   gallery: string[];
   links?: ProjectLink[];
+  sections?: ProjectSection[];
 };
 
 export const projects: Project[] = [
