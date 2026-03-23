@@ -82,6 +82,12 @@ export type ProjectLink = {
   url: string;
 };
 
+export type ProjectSection = {
+  label: string;
+  content: string;
+  items?: string[];
+};
+
 export type Project = {
   id: string;
   brand: string;
@@ -96,6 +102,7 @@ export type Project = {
   press?: string;
   gallery: string[];
   links?: ProjectLink[];
+  sections?: ProjectSection[];
 };
 
 export const projects: Project[] = [
@@ -148,11 +155,51 @@ export const projects: Project[] = [
     description: "Pressure tested Azure-native AI agents to automate marketing workflows during a competitive hackathon while mentoring undergraduate engineers through their first build.",
     tag: "Enterprise",
     image: bizhacksCover,
-    context: "The Infosys InStep BizHacks 2025 was an internal hackathon challenging undergraduate software engineers to build and deploy AI-powered business solutions. For many participants it was their first hackathon experience, requiring both technical guidance and strategic marketing mentorship to bring their products to life.",
-    role: "As MBA Intern supporting the Global Head of Brand at Infosys, I independently built and pressure tested Azure-native AI agents as part of my internship project automating marketing operations workflows. I brought this project into the BizHacks competition and also served as a mentor to undergraduate software engineers, guiding them through both the technical build process and the product marketing framing of their solutions.",
-    impact: "Competed and mentored simultaneously, demonstrating technical depth unusual for a marketing intern. The underlying project delivered a working AI agent solution for marketing ops automation using Microsoft Azure infrastructure.",
-    press: "Infosys InStep BizHacks 2025. Infosys InStep global internship program.",
+    context: "",
+    role: "",
+    impact: "",
     gallery: [bizhacksGallery1, bizhacksGallery2, bizhacksGallery3, bizhacksGallery4, bizhacksGallery5, bizhacksGallery6],
+    sections: [
+      {
+        label: "Context",
+        content: "Infosys processes thousands of pieces of ad creative daily across global enterprise client programs. Manual review at that scale creates bottlenecks, inconsistency, and compliance risk. My internship project was to evaluate whether AI could take over the review workload, and if so, how to make it trustworthy enough that human reviewers would actually rely on it.",
+      },
+      {
+        label: "The Problem",
+        content: "The existing review process had no measurement infrastructure. There was no way to know whether the AI was getting it right, whether reviewers agreed with its flags, or where the tool was failing by volume. Adoption was stalling not because the tool was broken but because no one trusted it yet. Trust at scale requires proof, and there was no proof.",
+      },
+      {
+        label: "My Role",
+        content: "I owned the measurement and optimization workstream end to end. Starting from raw JSON output, I built the analytical framework to evaluate AI reviewer alignment against human decisions, modeled precision and recall tradeoffs, and identified the four highest-volume failure prompts driving the most noise in the system. I then built a prompt tester to iterate on those specific failure points, validate changes against real ad samples, and push improvements to production. In parallel I served as mentor to undergraduate engineers during the BizHacks internal hackathon, guiding both the technical build process and the product marketing framing of their AI agent solutions.",
+      },
+      {
+        label: "What I Built",
+        content: "",
+        items: [
+          "Confusion matrix and precision/recall model tracking AI flag accuracy versus human reviewer outcomes, establishing the first quantitative trust baseline for the tool.",
+          "Prompt optimization framework targeting the four noisiest failure prompts by volume, with a testing environment to modify JSON and prompt content, run ads through the updated logic, and reanalyze results before pushing to production.",
+          "Adoption dashboard closing a critical measurement gap where tool engagement and rollout performance were previously untracked across the enterprise stakeholder base.",
+          "GTM rollout infrastructure including sales enablement materials, executive keynote content, and positioning frameworks supporting enterprise B2B client acquisition across Fortune 500 programs.",
+        ],
+      },
+      {
+        label: "The Precision vs Recall Decision",
+        content: "One of the more consequential calls on this project was prioritizing precision over recall in the model optimization strategy. In a high-stakes ad compliance context, a false positive, where AI flags something incorrectly and a reviewer accepts that wrong call, is more damaging to trust than a miss. Getting reviewers to trust the tool required proving it was right when it flagged something, not just that it flagged a lot. That framing shaped every prompt iteration.",
+      },
+      {
+        label: "Results",
+        content: "",
+        items: [
+          "Improved tool accuracy from 40% to 60% through targeted prompt engineering and noise reduction across the four highest-volume failure categories.",
+          "Delivered working AI agent solution on Azure infrastructure within internship timeline.",
+          "Established measurement infrastructure that did not exist at project start.",
+        ],
+      },
+      {
+        label: "Why It Matters for Ad Product Marketing",
+        content: "Building trust in an AI-powered review tool at 4,000 ads per day is the same problem Netflix Ads faces with any new ad product it ships. Adoption does not happen because the product works. It happens because stakeholders believe it works and have evidence to point to. That is a GTM and measurement problem as much as a product problem, and that is exactly what this project was.",
+      },
+    ],
   },
   {
     id: "hbo-barry-emmys",
