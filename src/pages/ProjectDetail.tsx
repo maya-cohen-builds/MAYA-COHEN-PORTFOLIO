@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { projects, type ProjectLink } from "@/data/projects";
+import { projects, type ProjectLink, type ProjectSection } from "@/data/projects";
 import { ArrowLeft } from "lucide-react";
 import React from "react";
 
