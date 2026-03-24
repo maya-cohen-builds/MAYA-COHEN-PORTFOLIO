@@ -154,14 +154,14 @@ export const projects: Project[] = [
   {
     id: "becoming-memoir-launch",
     brand: "Strategic Messaging Partner, Brand Positioning | 2017-2019",
-    title: "Brand Strategy and GTM Enablement, Pattern Beauty Founder & CEO",
-    description: "Built the messaging and positioning infrastructure behind one of the most culturally significant book launches of the decade, enabling the brand foundation and GTM launch of Pattern Beauty in 2019.",
+    title: "Brand Strategy and GTM Enablement, PATTERN Beauty Founder & CEO",
+    description: "Built the messaging and positioning infrastructure behind one of the most culturally significant book launches of the decade, enabling the brand foundation and GTM launch of PATTERN Beauty in 2019.",
     tag: "Content",
     image: patternMacysHero,
     context: "In 2018, Michelle Obama launched Becoming, a #1 New York Times Bestseller and one of the best-selling memoirs in publishing history. Tracee Ellis Ross, coming off a viral Glamour Women of the Year speech, was selected as a key press figure in the Becoming campaign, including a high-profile New York Times interview with Obama herself. To prepare for this role Ross needed a strategic creative partner to help shape her approach to the material.",
     role: "As strategic messaging partner to Tracee Ellis Ross, I built the positioning and messaging frameworks that anchored her role as a key press figure in the Becoming campaign. This included selecting and synthesizing thematic content from the memoir, structuring talking points, and developing media training materials used directly in her New York Times interview with Michelle Obama. I also advised on strategy and content for her Glamour Women of the Year speech, which went viral and led directly to her TED2018 invitation. Working sessions took place across Los Angeles including on the set of Black-ish. In parallel I supported the Time's Up movement at the C-suite level, converting live executive meeting notes into messaging and positioning frameworks for the GTM launch of their legal defense fund.",
-    impact: "14M copies sold worldwide. Sold-out 17,500-seat Forum event. $21M raised in 60 days. TED2018 invitation. GTM enablement of Pattern Beauty launch 2019.",
-    press: "Becoming sold 2 million copies in its first 15 days and 14 million worldwide. The Becoming tour sold out venues nationwide. Tracee Ellis Ross's Glamour Women of the Year speech received national coverage from The Washington Post, HuffPost, and Upworthy, directly leading to her TED2018 invitation. The Time's Up Legal Defense Fund raised $21 million within 60 days, supporting over 1,700 women across 60+ industries. Pattern Beauty launched in 2019.",
+    impact: "14M copies sold worldwide. Sold-out 17,500-seat Forum event. $21M raised in 60 days. TED2018 invitation. GTM enablement of PATTERN Beauty launch 2019.",
+    press: "Becoming sold 2 million copies in its first 15 days and 14 million worldwide. The Becoming tour sold out venues nationwide. Tracee Ellis Ross's Glamour Women of the Year speech received national coverage from The Washington Post, HuffPost, and Upworthy, directly leading to her TED2018 invitation. The Time's Up Legal Defense Fund raised $21 million within 60 days, supporting over 1,700 women across 60+ industries. PATTERN Beauty launched in 2019.",
     gallery: [becomingGlamourTracee, becomingBookDisplay, patternProducts, becomingGlamourWoty, becomingTourDates, becomingTimesup, traceePatternBeauty],
   },
   {
