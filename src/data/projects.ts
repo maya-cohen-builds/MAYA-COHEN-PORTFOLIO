@@ -157,7 +157,7 @@ export const projects: Project[] = [
     image: bizhacksCover,
     context: "",
     role: "",
-    impact: "",
+    impact: "Competed and mentored simultaneously, demonstrating technical depth unusual for an MBA intern. The underlying project delivered a working AI agent solution for marketing ops automation using Microsoft Azure infrastructure.",
     gallery: [bizhacksGallery1, bizhacksGallery2, bizhacksGallery3, bizhacksGallery4, bizhacksGallery5, bizhacksGallery6],
     sections: [
       {
