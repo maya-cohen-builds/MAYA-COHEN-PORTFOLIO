@@ -36,6 +36,8 @@ import becomingTimesup from "@/assets/becoming-timesup.webp";
 import becomingWomenIllustration from "@/assets/becoming-women-illustration.jpeg";
 import becomingTourDates from "@/assets/becoming-tour-dates.jpg";
 import becomingGlamourTracee from "@/assets/becoming-glamour-tracee.jpg";
+import patternProducts from "@/assets/pattern-products.jpg";
+import traceePatternBeauty from "@/assets/tracee-pattern-beauty.jpg";
 import infosysGallery1 from "@/assets/infosys-gallery-1.jpeg";
 import infosysGallery3 from "@/assets/infosys-gallery-3.jpeg";
 import infosysGallery4 from "@/assets/infosys-gallery-4.jpeg";
@@ -243,7 +245,7 @@ export const projects: Project[] = [
     role: "Fascilitating brand management for Tracee Ellis Ross, I supported her across multiple engagements, enabling the launch of Pattern Beauty in 2019. I contributed copyediting, messaging and positioning input, and advised strategy and content for her Glamour Women of the Year speech, which went viral following the event. For the Michelle Obama Becoming press work, I built messaging and positioning frameworks by selecting and organizing key content from the memoir, synthesizing themes for Tracee, and structuring talking points and media training materials used in her press appearances including her New York Times interview with Obama. Our working sessions took place across Los Angeles including on the set of Black-ish and in her private living room. In parallel, I worked with the groundbreaking Time's Up movement and SAG-AFTRA C-suite, transforming live executive meeting notes into messaging and positioning frameworks for the GTM enablement of their legal defense fund, which raised $21 million within 60 days of launch.",
     impact: "Contributed to the press infrastructure behind one of the most culturally significant book launches of the decade. Tracee Ellis Ross served as moderator for the LA stop of the Becoming tour at The Forum, a sold-out 17,500-seat arena event. Her Glamour Women of the Year speech went viral. Her New York Times interview with Michelle Obama became one of the defining press moments of the Becoming campaign. Times Up legal fund messaging reached national scale through C-suite GTM enablement across the entertainment industry.",
     press: "Becoming sold 2 million copies in its first 15 days and 14 million worldwide, becoming one of the best-selling memoirs in history. The tour sold out venues nationwide. Tracee Ellis Ross's Glamour Women of the Year speech went viral and was covered by The Washington Post, Upworthy, and dozens of national outlets. The Time's Up Legal Defense Fund raised $21 million within 60 days of launch, supporting over 1,700 women across 60+ industries. The Glamour Women of the Year speech went viral and received coverage from the Washington Post, HuffPost, and Upworthy, directly leading to Tracee Ellis Ross's invitation to speak at TED2018.",
-    gallery: [becomingGlamourTracee, becomingBookDisplay, becomingWomenIllustration, becomingGlamourWoty, becomingTourDates, becomingTimesup],
+    gallery: [becomingGlamourTracee, becomingBookDisplay, patternProducts, traceePatternBeauty, becomingWomenIllustration, becomingGlamourWoty, becomingTourDates, becomingTimesup],
   },
   {
     id: "usc-elevate-summit",
