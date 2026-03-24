@@ -238,7 +238,7 @@ export const projects: Project[] = [
     id: "becoming-memoir-launch",
     brand: "Strategic Messaging Partner, Brand Positioning | 2017-2019",
     title: "Brand Strategy and GTM Enablement, Tracee Ellis Ross / Pattern Beauty",
-    description: "Developed messaging and positioning frameworks for Tracee Ellis Ross's press role in the Becoming campaign, including content synthesis from the memoir, structured talking points, and media training materials used in her NYT interview with Michelle Obama. Advised on strategy and content for her Glamour Women of the Year speech, which went viral and led directly to her TED2018 invitation. This brand voice work from 2017 to 2019 contributed to the positioning foundation from which Pattern Beauty launched. In parallel, supported Time's Up C-suite GTM launch of their legal defense fund, which raised $21 million within 60 days.",
+    description: "Built the messaging and positioning infrastructure behind one of the most culturally significant book launches of the decade, contributing to the brand foundation from which Pattern Beauty launched in 2019.",
     tag: "Content",
     image: becomingTourPoster,
     context: "In 2018, Michelle Obama launched Becoming, a #1 New York Times Bestseller and one of the best-selling memoirs in publishing history. Tracee Ellis Ross, coming off a viral Glamour Women of the Year speech, was selected as a key press figure in the Becoming campaign, including a high-profile New York Times interview with Obama herself. To prepare for this role Ross needed a strategic creative partner to help shape her approach to the material.",
