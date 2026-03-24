@@ -141,7 +141,7 @@ export const projects: Project[] = [
     id: "being-henry-book-tour",
     brand: "Henry Winkler x Celadon Books",
     title: "Being Henry: National Book Tour GTM",
-    description: "Chief of Staff behind the national GTM launch of a NYT Bestselling memoir across 15+ US markets.",
+    description: "Chief of Staff behind the national GTM launch of a NYT Bestselling memoir across 15+ US markets and integrated marketing campaigns spanning primetime, syndicated, and podcasting.",
     tag: "Live Events",
     image: henryTourBanner,
     cardImage: henryTourBanner,
