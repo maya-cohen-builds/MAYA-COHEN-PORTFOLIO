@@ -220,7 +220,7 @@ const ProjectDetail = () => {
                     src={img}
                     alt={`${project.title} gallery ${i + 1}`}
                     className={`w-full h-full ${isKHWide || isHumanitas ? "object-contain bg-muted" : isBecoming ? "object-cover object-center" : "object-cover"}`}
-                    style={isElevateMug ? { objectPosition: 'center center', transform: 'scale(1.4)' } : (isBecoming && i === 4) ? { objectPosition: 'left center' } : undefined}
+                    style={isElevateMug ? { objectPosition: 'center center', transform: 'scale(1.4)' } : (isBecoming && i === 4) ? { objectPosition: 'center top' } : undefined}
                     loading="lazy"
                     />
                     {isBecoming && i === 0 && (
