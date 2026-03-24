@@ -238,7 +238,7 @@ export const projects: Project[] = [
   {
     id: "becoming-memoir-launch",
     brand: "Strategic Messaging Partner, Brand Positioning | 2017-2019",
-    title: "Brand Strategy and GTM Enablement, PATTERN CEO Tracee Ellis Ross ",
+    title: "Brand Strategy and GTM Enablement, Pattern Beauty CEO Tracee Ellis Ross ",
     description: "Built the messaging and positioning infrastructure behind one of the most culturally significant book launches of the decade, contributing to the brand foundation from which Pattern Beauty launched in 2019.",
     tag: "Content",
     image: patternMacysHero,
