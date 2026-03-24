@@ -156,7 +156,7 @@ export const projects: Project[] = [
     id: "becoming-memoir-launch",
     brand: "TRACEE ELLIS ROSS",
     title: "Brand Strategy and GTM Enablement, PATTERN Beauty Founder & CEO",
-    description: "Built the messaging and positioning infrastructure enabling the GTM launch of PATTERN Beauty in 2019 and built on the brand foundation of award-winning actress and activist, Tracee Ellis Ross.",
+    description: "Enabled the GTM launch of PATTERN Beauty in 2019, creating the messaging and positioning infrastructure and carving the brand foundation of award-winning actress and activist, Tracee Ellis Ross.",
     tag: "Content",
     image: patternMacysHero,
     context: "In 2018, Michelle Obama launched Becoming, a #1 New York Times Bestseller and one of the best-selling memoirs in publishing history. Tracee Ellis Ross, coming off a viral Glamour Women of the Year speech, was selected as a key press figure in the Becoming campaign, including a high-profile New York Times interview with Obama herself. In 2019, Tracee launched PATTERN Beauty, a curly haircare line built around Tracee's personal brand. To prepare for this launch, Ross needed a strategic creative partner to help shape her approach to the material.",
