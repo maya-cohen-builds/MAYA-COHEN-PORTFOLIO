@@ -47,7 +47,7 @@ const AboutSection = () =>
     </p>
       <div className="divider mb-8" />
       <div className="text-xs uppercase tracking-widest text-muted-foreground font-normal space-y-2">
-        <div className="text-base">PRODUCT MARKETING / BRAND ACTIVATIONS / LIVE PRODUCT EXPERIENCES / PARTNERSHIPS / ADVERTISING</div>
+        <div className="text-base">PRODUCT MARKETING / BRAND ACTIVATIONS / LIVE PRODUCT EXPERIENCES / SALES ENABLEMENT / GTM STRATEGY</div>
       </div>
     </motion.div>
   </section>;
