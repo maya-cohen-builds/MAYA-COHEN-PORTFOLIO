@@ -106,7 +106,7 @@ const ProjectDetail = () => {
         <img
           src={project.image}
           alt={project.title}
-          className={`w-full h-full object-cover ${project.id === "usc-marshall-gwib" ? "object-center" : project.id === "becoming-memoir-launch" ? "object-[center_30%]" : ""}`}
+          className={`w-full h-full object-cover ${project.id === "usc-marshall-gwib" ? "object-center" : project.id === "becoming-memoir-launch" ? "object-[center_30%]" : project.id === "pipex-virtual-launch" ? "object-top" : ""}`}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
         <button
