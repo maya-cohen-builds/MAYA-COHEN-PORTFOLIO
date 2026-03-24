@@ -222,8 +222,11 @@ const ProjectDetail = () => {
                     className={`w-full h-full ${isKHWide || isHumanitas ? "object-contain bg-muted" : isBecoming ? "object-cover object-center" : "object-cover"}`}
                     style={isElevateMug ? { objectPosition: 'center center', transform: 'scale(1.4)' } : (isBecoming && i === 4) ? { objectPosition: 'left center' } : undefined}
                     loading="lazy"
-                  />
-                </motion.div>
+                    />
+                    {isBecoming && i === 0 && (
+                      <img src={glamourLogo} alt="Glamour logo" className="absolute top-3 left-3 w-20 pointer-events-none" />
+                    )}
+                  </motion.div>
               );
             })}
           </div>
