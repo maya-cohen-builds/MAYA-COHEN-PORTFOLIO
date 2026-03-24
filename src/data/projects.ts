@@ -29,6 +29,7 @@ import bizhacksGallery5 from "@/assets/bizhacks-gallery-5.jpg";
 import bizhacksGallery6 from "@/assets/bizhacks-gallery-6.jpg";
 import infosysCover from "@/assets/infosys-cover.jpeg";
 import becomingTourPoster from "@/assets/becoming-tour-poster.jpg";
+import patternMacysHero from "@/assets/pattern-macys-hero.webp";
 import becomingGlamourStage from "@/assets/becoming-glamour-stage.png";
 import becomingGlamourWoty from "@/assets/becoming-glamour-woty.jpg";
 import becomingBookDisplay from "@/assets/becoming-book-display.jpg";
