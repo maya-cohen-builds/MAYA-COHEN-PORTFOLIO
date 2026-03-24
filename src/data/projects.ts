@@ -153,7 +153,7 @@ export const projects: Project[] = [
   },
   {
     id: "becoming-memoir-launch",
-    brand: "Strategic Messaging Partner, Brand Positioning | 2017-2019",
+    brand: "EXECUTIVE COMMUNICATIONS | STRATEGIC MESSAGING AND POSITIONING | 2017-2019",
     title: "Brand Strategy and GTM Enablement, PATTERN Beauty Founder & CEO",
     description: "Built the messaging and positioning infrastructure behind one of the most culturally significant book launches of the decade, enabling the brand foundation and GTM launch of PATTERN Beauty in 2019.",
     tag: "Content",
