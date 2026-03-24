@@ -213,7 +213,7 @@ const ProjectDetail = () => {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className={`overflow-hidden bg-muted ${isKHWide ? "md:col-span-2 lg:col-span-3 aspect-video" : isBecoming ? (i < 4 ? "lg:col-span-3 aspect-[9/8]" : "lg:col-span-4 aspect-[3/2]") : isHumanitas ? "aspect-video" : "aspect-square"}`}
+                  className={`overflow-hidden bg-muted ${isKHWide ? "md:col-span-2 lg:col-span-3 aspect-video" : isBecoming ? "lg:col-span-4 aspect-[3/2]" : isHumanitas ? "aspect-video" : "aspect-square"}`}
                 >
                   <img
                     src={img}
