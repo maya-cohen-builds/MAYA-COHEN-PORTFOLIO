@@ -224,10 +224,7 @@ const ProjectDetail = () => {
                     loading="lazy"
                     />
                     {isBecoming && i === 0 && (
-                      <>
-                        <img src={glamourLogo} alt="Glamour logo" className="absolute top-3 left-3 w-20 pointer-events-none" />
-                        <div className="absolute top-0 right-0 w-[120px] h-[40px] bg-black pointer-events-none" />
-                      </>
+                      <img src={glamourLogo} alt="Glamour logo" className="absolute top-3 left-3 w-20 pointer-events-none" />
                     )}
                   </motion.div>
               );
