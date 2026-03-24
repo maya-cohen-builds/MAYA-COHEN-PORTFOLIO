@@ -36,6 +36,8 @@ import becomingTimesup from "@/assets/becoming-timesup.webp";
 import becomingWomenIllustration from "@/assets/becoming-women-illustration.jpeg";
 import becomingTourDates from "@/assets/becoming-tour-dates.jpg";
 import becomingGlamourTracee from "@/assets/becoming-glamour-tracee.jpg";
+import patternProducts from "@/assets/pattern-products.png";
+import traceePatternBeauty from "@/assets/tracee-pattern-beauty.jpg";
 import infosysGallery1 from "@/assets/infosys-gallery-1.jpeg";
 import infosysGallery3 from "@/assets/infosys-gallery-3.jpeg";
 import infosysGallery4 from "@/assets/infosys-gallery-4.jpeg";
