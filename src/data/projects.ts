@@ -245,7 +245,7 @@ export const projects: Project[] = [
       },
       {
         label: "Impact",
-        content: "Competed and mentored simultaneously, demonstrating technical depth unusual for an MBA intern. The underlying project delivered a working AI agent solution for marketing ops automation using Microsoft Azure infrastructure.",
+        content: "Competed and mentored simultaneously, demonstrating technical depth unusual for an MBA intern. The underlying project delivered a working AI agent solution with live product demos for marketing ops automation using Microsoft Azure infrastructure.",
       },
       {
         label: "Results",
