@@ -2,6 +2,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { projects, type ProjectLink, type ProjectSection } from "@/data/projects";
 import { ArrowLeft } from "lucide-react";
+import glamourLogo from "@/assets/glamour-logo.png";
 import React from "react";
 
 const renderTextWithLinks = (text: string, links?: ProjectLink[]): React.ReactNode => {
@@ -213,7 +214,7 @@ const ProjectDetail = () => {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className={`overflow-hidden bg-muted ${isKHWide ? "md:col-span-2 lg:col-span-3 aspect-video" : isBecoming ? "lg:col-span-4 h-[380px]" : isHumanitas ? "aspect-video" : "aspect-square"}`}
+                  className={`overflow-hidden bg-muted relative ${isKHWide ? "md:col-span-2 lg:col-span-3 aspect-video" : isBecoming ? "lg:col-span-4 h-[380px]" : isHumanitas ? "aspect-video" : "aspect-square"}`}
                 >
                   <img
                     src={img}
@@ -221,8 +222,11 @@ const ProjectDetail = () => {
                     className={`w-full h-full ${isKHWide || isHumanitas ? "object-contain bg-muted" : isBecoming ? "object-cover object-center" : "object-cover"}`}
                     style={isElevateMug ? { objectPosition: 'center center', transform: 'scale(1.4)' } : (isBecoming && i === 4) ? { objectPosition: 'left center' } : undefined}
                     loading="lazy"
-                  />
-                </motion.div>
+                    />
+                    {isBecoming && i === 0 && (
+                      <img src={glamourLogo} alt="Glamour logo" className="absolute top-3 left-3 w-20 pointer-events-none" />
+                    )}
+                  </motion.div>
               );
             })}
           </div>
