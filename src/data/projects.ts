@@ -157,7 +157,7 @@ export const projects: Project[] = [
     image: bizhacksCover,
     context: "",
     role: "",
-    impact: "",
+    impact: "Competed and mentored simultaneously, demonstrating technical depth unusual for an MBA intern. The underlying project delivered a working AI agent solution for marketing ops automation using Microsoft Azure infrastructure.",
     gallery: [bizhacksGallery1, bizhacksGallery2, bizhacksGallery3, bizhacksGallery4, bizhacksGallery5, bizhacksGallery6],
     sections: [
       {
@@ -185,6 +185,10 @@ export const projects: Project[] = [
       {
         label: "The Precision vs Recall Decision",
         content: "One of the more consequential calls on this project was prioritizing precision over recall in the model optimization strategy. In a high-stakes ad compliance context, a false positive, where AI flags something incorrectly and a reviewer accepts that wrong call, is more damaging to trust than a miss. Getting reviewers to trust the tool required proving it was right when it flagged something, not just that it flagged a lot. That framing shaped every prompt iteration.",
+      },
+      {
+        label: "Impact",
+        content: "Competed and mentored simultaneously, demonstrating technical depth unusual for an MBA intern. The underlying project delivered a working AI agent solution for marketing ops automation using Microsoft Azure infrastructure.",
       },
       {
         label: "Results",
