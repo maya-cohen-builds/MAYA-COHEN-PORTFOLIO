@@ -113,7 +113,7 @@ export const projects: Project[] = [
     id: "pipex-virtual-launch",
     brand: "DreamWorks Animation",
     title: "PipeX Virtual Launch Activations",
-    description: "Co-led virtual brand activations for a cloud-native pipeline launch featuring Trolls IP during peak pandemic Zoom fatigue.",
+    description: "Led virtual brand activations for a cloud-native pipeline launch featuring Trolls IP during peak pandemic Zoom fatigue.", for a cloud-native pipeline launch featuring Trolls IP during peak pandemic Zoom fatigue.",
     tag: "Enterprise",
     image: pipexTrollsHoliday,
     cardImage: pipexCardCover,
