@@ -178,7 +178,7 @@ const ProjectDetail = () => {
         {/* Gallery */}
         <div className="mt-24">
           <h2 className="label-text mb-8">Gallery</h2>
-          <div className={project.id === "usc-marshall-gwib" || project.id === "pipex-virtual-launch" || project.id === "being-henry-book-tour" || project.id === "hbo-barry-emmys" || project.id === "executive-brand-activations" ? "columns-1 md:columns-2 lg:columns-3" : project.id === "becoming-memoir-launch" ? "grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4" : `grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3`}>
+          <div className={project.id === "usc-marshall-gwib" || project.id === "pipex-virtual-launch" || project.id === "being-henry-book-tour" || project.id === "hbo-barry-emmys" || project.id === "executive-brand-activations" ? "columns-1 md:columns-2 lg:columns-3" : project.id === "becoming-memoir-launch" ? "grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-12" : `grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3`}>
             {project.gallery.map((img, i) => {
               const isKHWide = project.id === "kings-hawaiian-case-competition" && i === project.gallery.length - 1;
               const isElevateMug = project.id === "usc-elevate-summit" && i === 2;
@@ -213,7 +213,7 @@ const ProjectDetail = () => {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className={`overflow-hidden bg-muted ${isKHWide ? "md:col-span-2 lg:col-span-3 aspect-video" : isBecoming || isHumanitas ? "aspect-video" : "aspect-square"}`}
+                  className={`overflow-hidden bg-muted ${isKHWide ? "md:col-span-2 lg:col-span-3 aspect-video" : isBecoming ? (i < 4 ? "lg:col-span-3 aspect-video" : "lg:col-span-4 aspect-video") : isHumanitas ? "aspect-video" : "aspect-square"}`}
                 >
                   <img
                     src={img}
